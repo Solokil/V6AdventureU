@@ -11,16 +11,16 @@ inaccuracy: 0.7
 rotatespeed: 10
 targetAir: true
 ammo: {
-  ironite: {
+  //ironite: {
     //move 6 world units per frame (very fast)
-    speed: 6
-    damage: 85
-    bulletWidth: 7
-    bulletHeight: 16
-    shootEffect: shootSmall
-    smokeEffect: shootSmallSmoke
-    ammoMultiplier: 3
-  }
+    //speed: 6
+    //damage: 85
+    //bulletWidth: 7
+    //bulletHeight: 16
+    //shootEffect: shootSmall
+    //smokeEffect: shootSmallSmoke
+   // ammoMultiplier: 3
+ // }
   copper: {
   speed: 3
   damage: 50
@@ -50,7 +50,7 @@ ammo: {
   }
 }
 requirements: [
-  ironite/75
+  //ironite/75
   lead/40
 ]
 category: turret

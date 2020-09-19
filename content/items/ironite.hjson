@@ -1,12 +1,6 @@
-type: material
+//type: material ----- do not exists in V6
 name: Ironite
 description: Easy to find and to use. This is the most simple disrupted mineral
 hardness: 2
 cost: 1
 color: d5dbe4
-
-requirements: [
-  lead/100
-]
-techTree: pneumatic-drill
-research: arc

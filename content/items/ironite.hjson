@@ -8,4 +8,5 @@ color: d5dbe4
 requirements: [
   lead/100
 ]
-research: pneumatic-drill
+techTree: pneumatic-drill
+research: arc

@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: "ironite compress"
+description: "Changes the structure of lead to seams like ironite... not the true Ironite but it will work just fine. uses a relative amount of energy in the process"
+outputItem: {
+  item: ironite
+  amount: 1
+}
+buildCostMultiplier: 0.5
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 15
+updateEffect: smeltsmoke
+consumes: {
+  item: lead
+  power: 2
+}
+requirements: [
+  lead/80
+  copper/30
+  silicon/5
+]
+category: crafting
+research: ironite
+idleSound: respawning
+idleSoundVolume: 0.5
+
+

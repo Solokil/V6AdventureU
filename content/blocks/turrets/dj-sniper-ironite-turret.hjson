@@ -1,0 +1,57 @@
+type: ArtilleryTurret
+name: Sniper Ironite Turret
+description: Can shoot scrap, handfull and with a VERY LONG RANGE!!!... but not great against swarm of units
+health: 940
+size: 2
+buildCostMultiplier: 0.3
+reload: 25
+range: 350
+ammoUseEffect: shellEjectSmall
+inaccuracy: 0.7
+rotatespeed: 10
+targetAir: true
+ammo: {
+  ironite: {
+    //move 6 world units per frame (very fast)
+    speed: 6
+    damage: 85
+    bulletWidth: 7
+    bulletHeight: 16
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 3
+  }
+  copper: {
+  speed: 3
+  damage: 50
+  bulletWidth: 9
+  bulletHeight: 11
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  ammoMultiplier: 1
+  }
+  lead: {
+  speed: 4.5
+  damage: 70
+  bulletWidth: 10
+  bulletHeight: 13
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  ammoMultiplier: 2
+  }
+  scrap: {
+  speed: 2
+  damage: 100
+  bulletWidth: 10
+  bulletHeight: 15
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  ammoMultiplier: 1
+  }
+}
+requirements: [
+  ironite/75
+  lead/40
+]
+category: turret
+research: ironite

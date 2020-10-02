@@ -1,10 +1,10 @@
 type: ArtilleryTurret
-name: Sniper Ironite Turret
+name: Hanzol
 description: Can shoot scrap, handfull and with a VERY LONG RANGE!!!... but not great against swarm of units
 health: 940
 size: 2
 buildCostMultiplier: 0.3
-reload: 25
+reload: 37
 range: 350
 ammoUseEffect: shellEjectSmall
 inaccuracy: 0.7
@@ -14,7 +14,7 @@ ammo: {
   ironite: {
     //move 6 world units per frame (very fast)
     speed: 6
-    damage: 85
+    damage: 80
     bulletWidth: 7
     bulletHeight: 16
     shootEffect: shootSmall
@@ -23,7 +23,7 @@ ammo: {
   }
   copper: {
   speed: 3
-  damage: 50
+  damage: 35
   bulletWidth: 9
   bulletHeight: 11
   shootEffect: shootSmall
@@ -32,7 +32,7 @@ ammo: {
   }
   lead: {
   speed: 4.5
-  damage: 70
+  damage: 40
   bulletWidth: 10
   bulletHeight: 13
   shootEffect: shootSmall
@@ -41,7 +41,7 @@ ammo: {
   }
   scrap: {
   speed: 2
-  damage: 100
+  damage: 50
   bulletWidth: 10
   bulletHeight: 15
   shootEffect: shootSmall

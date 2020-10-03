@@ -1,5 +1,5 @@
 name: Glass Fragment
-description: 
+description: "A piece of broken Meta Glass"
 requirements: [
 metaglass/2
 ironite/2

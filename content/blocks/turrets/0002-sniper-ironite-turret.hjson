@@ -3,14 +3,19 @@ name: Hanzol
 description: Can shoot scrap, handfull and with a VERY LONG RANGE!!!... but not great against swarm of units
 health: 940
 size: 2
+hasItems: true
+hasLiquids: true
+liquid capacity: 10
 buildCostMultiplier: 0.3
-reload: 37
+reloadTime: 37
 range: 350
+inaccuracy: 0
+coolantMultiplier: 30
 ammoUseEffect: shellEjectSmall
 inaccuracy: 0.7
 rotatespeed: 10
 targetAir: true
-ammo: {
+ammoTypes: {
   ironite: {
     //move 6 world units per frame (very fast)
     speed: 6
@@ -55,3 +60,10 @@ requirements: [
 ]
 category: turret
 research: ironite
+consumes: {
+liquid: {
+liquid: water
+amount: 0.1
+optional: true
+booster: true
+}}

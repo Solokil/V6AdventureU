@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: "Glass Breaker"
+description: "Breaks Metaglass into glass fragments. Don't spend energy on the process"
+outputItem: {
+  item: glass-fragment
+  amount: 2
+}
+buildCostMultiplier: 0.3
+size: 1
+hasPower: false
+hasLiquids: false
+hasItems: true
+craftTime: 90
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+        items: [
+            metaglass/1
+        ]
+    }
+}
+requirements: [
+  metaglass/30
+]
+category: crafting
+research: glass-fragment
+idleSound: respawning
+idleSoundVolume: 0.5

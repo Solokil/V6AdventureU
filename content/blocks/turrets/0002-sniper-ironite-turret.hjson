@@ -5,7 +5,7 @@ health: 940
 size: 2
 hasItems: true
 hasLiquids: true
-liquid capacity: 10
+liquidCapacity: 10
 buildCostMultiplier: 0.3
 reloadTime: 37
 range: 350

@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: "Glass Refinery"
+description: "Refines Ironites and Glass fragments to make molded glass"
+outputItem: {
+  item: molded-glass
+  amount: 1
+}
+buildCostMultiplier: 0.5
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 25
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+        items: [
+            ironite/2
+            glass-fragment/5
+        ]
+    }
+  power: 1
+}
+requirements: [
+  ironite/35
+  glass-fragment/60
+  metaglass/10
+]
+category: crafting
+research: molded-glass
+idleSound: respawning
+idleSoundVolume: 0.5

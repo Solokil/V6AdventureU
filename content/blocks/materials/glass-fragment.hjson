@@ -6,4 +6,4 @@ ironite/2
 ]
 category: effect
 buildVisibility: debugOnly
-research: ironite-compress
+research: 0001-ironite-compress

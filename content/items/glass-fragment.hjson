@@ -4,3 +4,9 @@ description: It's metaglass but broken... Can be used to fabricate ammo and mate
 hardness: 2
 cost: 1
 color: 6eb4e6
+
+research: 0001-iron-compressor
+requirements: [
+metaglass/2
+copper/1
+]

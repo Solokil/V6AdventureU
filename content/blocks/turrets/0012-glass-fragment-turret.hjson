@@ -1,1 +1,20 @@
 
+type: MissileBulletType
+  lifetime: 210
+  speed: 4
+  damage: 20
+  splashDamageRadious: 18
+  splashDamage: 30
+  frontColor: c3ccff
+  backColor: c3ccff
+  homingPower: 1.8
+  homingRange: 38
+  fragBullets: 3
+  fragBullet: {
+    type: LiquidBulletType
+    liquid: water
+    lifetime: 600
+    speed: 0.2
+    pierce:true
+    damage:3
+    }

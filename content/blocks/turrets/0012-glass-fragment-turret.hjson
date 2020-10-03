@@ -27,7 +27,7 @@ ammoTypes: {
     ammoMultiplier: 2
   }
 
-  modeled-glass: {
+  molded-glass: {
   type: MissileBulletType
   lifetime: 110
   speed: 4

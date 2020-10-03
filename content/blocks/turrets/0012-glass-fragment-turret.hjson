@@ -30,7 +30,7 @@ ammoTypes: {
   lead: {
   speed: 4.5
   lifetime: 77
-  damage: 40
+  damage: 20
   bulletWidth: 10
   bulletHeight: 13
   shootEffect: shootSmall

@@ -12,7 +12,6 @@ range: 350
 inaccuracy: 0
 coolantMultiplier: 30
 ammoUseEffect: shellEjectSmall
-inaccuracy: 0.7
 rotatespeed: 10
 targetAir: true
 ammoTypes: {

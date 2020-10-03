@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: "Glass Breaker"
-description: "Breaks Metaglass into glass fragments. Don't spend energy on the process"
+description: "Breaks Metaglass into Glass Fragments. Don't spend energy on the process"
 outputItem: {
   item: glass-fragment
   amount: 2

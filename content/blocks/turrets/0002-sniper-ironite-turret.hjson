@@ -19,6 +19,7 @@ ammoTypes: {
   ironite: {
     //move 6 world units per frame (very fast)
     speed: 6
+    lifeTime: 57
     damage: 80
     bulletWidth: 7
     bulletHeight: 16
@@ -29,6 +30,7 @@ ammoTypes: {
   copper: {
   speed: 3
   damage: 35
+  lifeTime: 115
   bulletWidth: 9
   bulletHeight: 11
   shootEffect: shootSmall
@@ -37,6 +39,7 @@ ammoTypes: {
   }
   lead: {
   speed: 4.5
+  lifeTime: 77
   damage: 40
   bulletWidth: 10
   bulletHeight: 13
@@ -46,6 +49,7 @@ ammoTypes: {
   }
   scrap: {
   speed: 2
+  lifeTime: 172 // 4s * 60f = 240 frames
   damage: 50
   bulletWidth: 10
   bulletHeight: 15

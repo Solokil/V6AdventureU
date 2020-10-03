@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Fracture - GF
-description: Can shoot scrap, handfull and with a VERY LONG RANGE!!!... but not great against swarm of units
+description: A fragments based turret... Vey great against swarm of units
 health: 940
 size: 2
 hasItems: true
@@ -24,7 +24,39 @@ ammoTypes: {
     bulletHeight: 16
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 3
+    ammoMultiplier: 2
+  }
+
+  modeled-glass: {
+  type: MissileBulletType
+  lifetime: 110
+  speed: 4
+  damage: 40
+  splashDamageRadious: 22
+  splashDamage: 30
+  frontColor: c3ccff
+  backColor: c3ccff
+  homingPower: 1.2
+  homingRange: 30
+  fragBullets: 2
+  fragBullet: {
+    type: BasicBulletType
+    splashDamageRadious: -1
+    splashDamage: 0
+    lifetime: 60
+    speed: 1.4
+    pierce:true
+    damage: 9
+    bulletWidth: 12
+    bulletHeight: 12
+    bulletSprite: Underground-adventure-v6-modeled-glass
+    }
+  bulletWidth: 21
+  bulletHeight: 21
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  ammoMultiplier: 3
+  bulletSprite: Underground-adventure-v6-modeled-glass
   }
 
   lead: {
@@ -40,32 +72,30 @@ ammoTypes: {
 
   glass-fragment: {
   type: MissileBulletType
-  lifetime: 210
+  lifetime: 90
   speed: 4
   damage: 20
   splashDamageRadious: -1
   splashDamage: 0
   frontColor: c3ccff
   backColor: c3ccff
-  homingPower: 1.2
-  homingRange: 30
+  homingPower: 1
+  homingRange: 10
   fragBullets: 2
   fragBullet: {
     type: BasicBulletType
-    splashDamageRadious: -1
-    splashDamage: 30
-    liquid: water
-    lifetime: 60
+    splashDamageRadious: 0.5
+    splashDamage: 3
+    lifetime: 40
     speed: 0.2
-    pierce:true
+    pierce: true
     damage:3
     }
   bulletWidth: 10
   bulletHeight: 15
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
-  ammoMultiplier: 1 
-  bulletSprite: Underground-adventure-v6-modeled-glass
+  ammoMultiplier: 2
   }
 }
 requirements: [

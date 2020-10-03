@@ -1,20 +1,85 @@
+type: ItemTurret
+name: Hanzol
+description: Can shoot scrap, handfull and with a VERY LONG RANGE!!!... but not great against swarm of units
+health: 940
+size: 2
+hasItems: true
+hasLiquids: true
+liquidCapacity: 10
+buildCostMultiplier: 0.3
+reloadTime: 37
+range: 300
+inaccuracy: 0
+coolantMultiplier: 30
+ammoUseEffect: shellEjectSmall
+rotatespeed: 10
+targetAir: true
+ammoTypes: {
+  ironite: {
+    //move 6 world units per frame (very fast)
+    speed: 6
+    lifetime: 53
+    damage: 50
+    bulletWidth: 7
+    bulletHeight: 16
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 3
+  }
 
-type: MissileBulletType
+  lead: {
+  speed: 4.5
+  lifetime: 77
+  damage: 40
+  bulletWidth: 10
+  bulletHeight: 13
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  ammoMultiplier: 2
+  }
+
+  glass-fragment: {
+  type: MissileBulletType
   lifetime: 210
   speed: 4
   damage: 20
-  splashDamageRadious: 18
-  splashDamage: 30
+  splashDamageRadious: -1
+  splashDamage: 0
   frontColor: c3ccff
   backColor: c3ccff
-  homingPower: 1.8
-  homingRange: 38
-  fragBullets: 3
+  homingPower: 1.2
+  homingRange: 30
+  fragBullets: 2
   fragBullet: {
-    type: LiquidBulletType
+    type: BasicBulletType
+    splashDamageRadious: 18
+    splashDamage: 30
     liquid: water
     lifetime: 600
     speed: 0.2
     pierce:true
     damage:3
     }
+  bulletWidth: 10
+  bulletHeight: 15
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  ammoMultiplier: 1
+  }
+}
+requirements: [
+  glass-fragment/85
+  titanium/45
+]
+category: turret
+research: ironite
+consumes: {
+liquid: {
+liquid: water
+amount: 0.1
+optional: true
+booster: true
+}}
+
+
+

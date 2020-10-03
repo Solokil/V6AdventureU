@@ -64,8 +64,8 @@ ammoTypes: {
   bulletHeight: 15
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
-  ammoMultiplier: 1
-  bulletSprite:
+  ammoMultiplier: 1 
+  bulletSprite: Underground-adventure-v6-modeled-glass
   }
 }
 requirements: [

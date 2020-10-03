@@ -11,7 +11,7 @@ rotatespeed: 12
 
 chargeTime: 0.3
 chargeMaxDelay: 0.1
-chargeEffects: 10
+chargeEffects: 2
 chargeEffect: lancerLaserCharge
 heatColor: ff0000
 powerUse: 0.4

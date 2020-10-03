@@ -18,7 +18,7 @@ powerUse: 0.4
 shootType: {
  
   type: MissileBulletType
-  lifetime: 210
+  lifetime: 100
   speed: 4
   damage: 20
   splashDamageRadious: 18

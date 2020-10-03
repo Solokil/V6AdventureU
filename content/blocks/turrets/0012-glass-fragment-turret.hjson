@@ -52,10 +52,10 @@ ammoTypes: {
   fragBullets: 2
   fragBullet: {
     type: BasicBulletType
-    splashDamageRadious: 18
+    splashDamageRadious: -1
     splashDamage: 30
     liquid: water
-    lifetime: 600
+    lifetime: 60
     speed: 0.2
     pierce:true
     damage:3
@@ -65,6 +65,7 @@ ammoTypes: {
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
   ammoMultiplier: 1
+  bulletSprite:
   }
 }
 requirements: [

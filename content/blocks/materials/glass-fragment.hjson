@@ -1,0 +1,9 @@
+name: Glass Fragment
+description: 
+requirements: [
+metaglass/2
+ironite/2
+]
+category: effect
+buildVisibility: debugOnly
+research: ironite-compress

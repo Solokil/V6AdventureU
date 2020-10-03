@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Fracture - GF
-description: A fragments based turret... Vey great against swarm of units
+description: A fragments based turret... Very great against swarm of units
 health: 940
 size: 2
 hasItems: true

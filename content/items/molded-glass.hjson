@@ -1,0 +1,12 @@
+type: material
+name: Glass Fragment
+description: It's metaglass but broken... Can be used to fabricate ammo and material for great weapons.
+hardness: 4
+cost: 4
+color: 6eb4e6
+
+research: 0011-glass-breacker
+requirements: [
+metaglass/10
+ironite/10
+]

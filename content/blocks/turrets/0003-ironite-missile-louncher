@@ -1,0 +1,47 @@
+type: ChargeTurret
+name: Energy Iron Missile Louncher
+description: A missile Louncher that spends low energy, but have a big inaccuracy... It is good against swarms of units and in close range combat!
+health: 950
+size: 2
+reload: 20
+range: 185
+inaccuracy: 50
+buildCostMultiplier: 0.3
+rotatespeed: 12
+
+chargeTime: 0.3
+chargeMaxDelay: 0.1
+chargeEffects: 10
+chargeEffect: lancerLaserCharge
+heatColor: ff0000
+powerUse: 0.4
+shootType: {
+ 
+  type: MissileBulletType
+  lifetime: 210
+  speed: 4
+  damage: 20
+  splashDamageRadious: 18
+  splashDamage: 30
+  frontColor: c3ccff
+  backColor: c3ccff
+  homingPower: 1.8
+  homingRange: 38
+  fragBullets: 3
+  fragBullet: {
+    type: LiquidBulletType
+    liquid: water
+    lifetime: 600
+    speed: 0.2
+    pierce:true
+    damage:3
+    }
+  
+
+}
+requirements: [
+  ironite/50
+  titanium/30
+]
+category: turret
+research: 0002-sniper-ironite-turret

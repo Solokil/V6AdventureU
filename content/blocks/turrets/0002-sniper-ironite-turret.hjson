@@ -1,4 +1,4 @@
-type: ArtilleryTurret
+type: ItemTurret
 name: Hanzol
 description: Can shoot scrap, handfull and with a VERY LONG RANGE!!!... but not great against swarm of units
 health: 940

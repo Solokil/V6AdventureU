@@ -72,7 +72,7 @@ hitEffect: shootSmall
 despawnEffect: shootSmall
 shootEffect: shootSmall
 smokeEffect: shootSmallSmoke
-hitSound: null
+// hitSound: null
 inaccuracy: 0.5 //in degrees
 ammoMultiplier: 1
 reloadMultiplier: 1
@@ -104,7 +104,7 @@ hitEffect: shootSmall
 despawnEffect: shootSmall
 shootEffect: shootSmall
 smokeEffect: shootSmallSmoke
-hitSound: null
+// hitSound: null
 inaccuracy: 0.5 //in degrees
 ammoMultiplier: 1
 reloadMultiplier: 1
@@ -136,7 +136,7 @@ hitEffect: shootSmall
 despawnEffect: shootSmall
 shootEffect: shootSmall
 smokeEffect: shootSmallSmoke
-hitSound: null
+// hitSound: null
 inaccuracy: 0.5 //in degrees
 ammoMultiplier: 1
 reloadMultiplier: 1
@@ -168,7 +168,7 @@ hitEffect: shootSmall
 despawnEffect: shootSmall
 shootEffect: shootSmall
 smokeEffect: shootSmallSmoke
-hitSound: null
+// hitSound: null
 inaccuracy: 0.5 //in degrees
 ammoMultiplier: 1
 reloadMultiplier: 1

@@ -13,7 +13,7 @@ buildCostMultiplier: 0.1
 rotatespeed: 19
 ammoTypes: {
 
-	modeled-glass:{
+	molded-glass:{
   type: MissileBulletType
   lifetime: 135
   speed: 3

@@ -7,7 +7,7 @@ hasItems: true
 hasLiquids: true
 liquidCapacity: 10
 buildCostMultiplier: 0.3
-reloadTime: 37
+reloadTime: 30
 range: 300
 inaccuracy: 0
 coolantMultiplier: 30

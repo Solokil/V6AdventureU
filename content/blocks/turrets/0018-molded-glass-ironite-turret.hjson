@@ -263,7 +263,7 @@ backColor: ffffff // Color of back sprite.
 }
 requirements: [
   ironite/100
-  modeled-glass/70
+  molded-glass/70
   copper/60
   lead/50
   titanium/40

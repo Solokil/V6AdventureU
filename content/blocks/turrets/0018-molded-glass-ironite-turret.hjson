@@ -182,7 +182,7 @@ collidesTeam: false
 collidesAir: true
 collides: true
     keepVelocity: true
-    fragVelocityMin: 0.1
+    /* fragVelocityMin: 0.1
     fragVelocityMax: 0.5
     fragBullets: 1 //001
     fragBullet: {
@@ -193,7 +193,7 @@ collides: true
         speed: 3
         pierce: true
         keepVelocity: false
-        }
+        }  /**/
 splashDamage: 1.4
 splashDamageRadius: 6
 incendAmount: 0

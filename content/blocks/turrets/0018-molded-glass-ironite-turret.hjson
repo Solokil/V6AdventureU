@@ -3,19 +3,19 @@ name:  F.W.I.G.W.
 description: (Fire Works In Glass Weapon) as it says, fires glass tha makes a fireworks show, low damage and fire rate... but a lot of bullets!
 health: 2650
 size: 3
-reload: 600
+reloadTime: 300
 range: 400
 maxAmmo: 10 //default is 30
 ammoPerShot: 10
 ammoUseEffect: shellEjectSmall
-inaccuracy: 30
+inaccuracy: 10
 buildCostMultiplier: 0.1
 rotatespeed: 19
 ammoTypes: {
 
 	molded-glass:{
   type: MissileBulletType
-  lifetime: 135
+  lifetime: 140
   speed: 3
   damage: 1
   splashDamageRadius: 35
@@ -41,7 +41,7 @@ despawnEffect: shootSmall
 shootEffect: shootSmall
 smokeEffect: shootSmallSmoke
 // hitSound: null
-inaccuracy: 0.5 //in degrees
+// inaccuracy: 0.5 //in degrees to change the original one
 ammoMultiplier: 1
 reloadMultiplier: 1
 recoil: 0

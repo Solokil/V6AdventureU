@@ -264,8 +264,9 @@ backColor: ffff00 // Color of back sprite.
 requirements: [
   ironite/100
   modeled-glass/70
+  copper/60
   lead/50
-  titanium/100
+  titanium/40
 ]
 category: turret
 research: enlighther

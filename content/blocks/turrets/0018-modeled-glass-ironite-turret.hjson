@@ -20,8 +20,8 @@ ammoTypes: {
   damage: 1
   splashDamageRadius: 35
   splashDamage: 20
-  frontColor: ffff00
-  backColor: 00ffff
+  frontColor: ffffff
+  backColor: ffffff
   homingPower: 0.4
   homingRange: 300
   fragBullets: 5
@@ -187,7 +187,7 @@ collides: true
     fragBullets: 1 //001
     fragBullet: {
         type: LiquidBulletType
-        liquid: luminum
+        liquid: water
         damage: 3
         lifetime: 75
         speed: 3
@@ -202,8 +202,8 @@ incendChance: 15
 bulletWidth: 10
 bulletHeight: 10
 bulletShrink: 0 //Used to squishify the bullet as it gets closer to the target, where 0 is no shrink -0.5 is stretching and 0.5 is shrinking.
-frontColor: ff0000 // Color of front sprite.
-backColor: 00ff00 // Color of back sprite.
+frontColor: ffffff // Color of front sprite.
+backColor: ffffff // Color of back sprite.
 // bulletSprite:
 
         }
@@ -215,8 +215,8 @@ incendChance: 15
 bulletWidth: 10
 bulletHeight: 10
 bulletShrink: 0 //Used to squishify the bullet as it gets closer to the target, where 0 is no shrink -0.5 is stretching and 0.5 is shrinking.
-frontColor: ff00ff // Color of front sprite.
-backColor: ff0000 // Color of back sprite.
+frontColor: ffffff // Color of front sprite.
+backColor: ffffff // Color of back sprite.
 // bulletSprite:
 
         }
@@ -228,8 +228,8 @@ incendChance: 15
 bulletWidth: 10
 bulletHeight: 10
 bulletShrink: 0 //Used to squishify the bullet as it gets closer to the target, where 0 is no shrink -0.5 is stretching and 0.5 is shrinking.
-frontColor: 0000ff // Color of front sprite.
-backColor: 00ffff // Color of back sprite.
+frontColor: ffffff // Color of front sprite.
+backColor: ffffff // Color of back sprite.
 // bulletSprite:
 
         }
@@ -241,8 +241,8 @@ incendChance: 15
 bulletWidth: 10
 bulletHeight: 10
 bulletShrink: 0 //Used to squishify the bullet as it gets closer to the target, where 0 is no shrink -0.5 is stretching and 0.5 is shrinking.
-frontColor: ffff00 // Color of front sprite.
-backColor: ff00ff // Color of back sprite.
+frontColor: ffffff // Color of front sprite.
+backColor: ffffff // Color of back sprite.
 // bulletSprite:
 
         }
@@ -254,8 +254,8 @@ incendChance: 15
 bulletWidth: 10
 bulletHeight: 10
 bulletShrink: 0 //Used to squishify the bullet as it gets closer to the target, where 0 is no shrink -0.5 is stretching and 0.5 is shrinking.
-frontColor: 00ffff // Color of front sprite.
-backColor: ffff00 // Color of back sprite.
+frontColor: ffffff // Color of front sprite.
+backColor: ffffff // Color of back sprite.
 // bulletSprite:
 
     }

@@ -28,8 +28,8 @@ plans: [
     shinyAlloy/10
     ]
   time: 900
-  }
-]*/
+  }*/
+]
 requirements: [
   copper/90
   lead/70

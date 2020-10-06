@@ -7,7 +7,7 @@ range: 400
 weapons: [
   {
   name: iri-sniper
-  x: -16
+  x: -3
   y: 0
   reload: 70
   alternate: true

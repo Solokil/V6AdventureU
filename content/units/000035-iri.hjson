@@ -22,10 +22,3 @@ weapons: [
     bulletHeight: 14
   }}
 ] 
-
-research: 0005-ground-factory
-requirements: [
-  copper/10
-  lead/1
-  ironite/1
-]

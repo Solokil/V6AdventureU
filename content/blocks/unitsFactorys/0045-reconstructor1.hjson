@@ -1,0 +1,33 @@
+type: Reconstructor
+name: Fase 2 units factory
+size: 3
+consumes: {
+  power: 3
+  items: {
+    items: [
+    silicon/30
+    graphite/30
+    //goldIngot/15
+    ]
+  }
+}
+constructTime: 900
+requirements: [
+  copper/200
+  lead/120
+  silicon/90
+  // goldIngot/80
+]
+/*upgrades: [
+  [
+    goldenDagger, goldenMace
+  ]
+  [
+    goldenFlare, goldenHorizon
+  ]
+  [
+    goldenCrawler, goldenAtrax
+  ]
+]*/
+category: units
+research: additive-reconstructor

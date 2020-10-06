@@ -1,0 +1,39 @@
+type: UnitFactory
+size: 3
+consumes: {
+  power: 2
+}
+plans: [
+  {
+  unit: 000035-iri
+  requirements: [
+    copper/8
+    lead/8
+    ironite/15
+  ]
+  time: 600
+  }/*
+  {
+  unit: ghost
+  requirements: [
+    shinyAlloy/4
+  ]
+  time: 1200
+  }
+  {
+  unit: hammer
+  requirements: [
+    silicon/30
+    titanium/20
+    shinyAlloy/10
+    ]
+  time: 900
+  }
+]*/
+requirements: [
+  copper/90
+  lead/70
+  ironite/50
+]
+category: units
+research: 0001-ironite-compress

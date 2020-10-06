@@ -1,0 +1,31 @@
+type: MechUnit
+name: Lockeri
+speed: 1
+flying: false
+health: 500
+range: 400
+weapons: [
+  {
+  name: iri-sniper
+  x: -16
+  y: 0
+  reload: 70
+  alternate: true
+  ejectEffect: shellEjectSmall
+  bullet: {
+    lifetime: 65
+    speed: 5
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    damage: 100
+    bulletWidth: 8
+    bulletHeight: 14
+  }}
+] 
+
+research: 0005-ground-factory
+requirements: [
+  copper/10
+  lead/1
+  ironite/1
+]

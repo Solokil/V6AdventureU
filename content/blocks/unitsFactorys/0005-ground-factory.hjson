@@ -1,4 +1,6 @@
 type: UnitFactory
+name: Ironite Ground Factory
+description: "Can produce fase 1 ground units"
 size: 3
 consumes: {
   power: 2

@@ -1,4 +1,5 @@
 type: UnitFactory
+description: "Can produce fase 1 air units"
 size: 3
 consumes: {
   power: 2

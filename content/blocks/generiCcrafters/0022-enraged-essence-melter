@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: "Enraged Essence Melter"
+description: "Melts thorium and titanium in a large temperature to make Enraged Essence."
+liquidCapacity: 300
+buildCostMultiplier: 0.1
+outputLiquid: {
+  liquid: enrage-essence
+  amount: 30
+  // makes 60 per second cause of the crafting time
+}
+size: 2
+hasPower: true
+hasLiquids: true
+craftTime: 30
+updateEffect: smeltsmoke
+consumes: {
+  power: 3
+  items: {
+        items: [
+            thorium/3
+            titanium/3
+        ]
+    }
+}
+requirements: [
+  titanium/50
+  thorium/50
+  ironite/200
+]
+category: crafting
+research: enraged-essence
+idleSound: respawning
+idleSoundVolume: 0.5

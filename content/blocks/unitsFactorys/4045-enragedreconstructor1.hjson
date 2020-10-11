@@ -12,18 +12,13 @@ consumes: {
   power: 3
   items: {
     items: [
-    silicon/30
-    graphite/30
-    //goldIngot/15
+    concentrated-fury/15
     ]
   }
 }
-constructTime: 900
+constructTime: 300
 requirements: [
-  copper/200
-  lead/120
-  silicon/90
-  // goldIngot/80
+  concentrated-fury/120
 ]
 upgrades: [
   [
@@ -37,4 +32,4 @@ upgrades: [
   ]*/
 ]/**/
 category: units
-research: additive-reconstructor
+research: 0005-ground-factory

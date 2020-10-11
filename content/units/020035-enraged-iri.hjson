@@ -15,7 +15,7 @@ weapons: [
   ejectEffect: shellEjectSmall
   bullet: {
     lifetime: 65
-    speed: 5
+    speed: 5.5
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     damage: 130

@@ -1,6 +1,12 @@
 type: Reconstructor
 name: Enrager Reconstructor T2
 description: "can makes any fase 1 or 2 adventure unit becames enraged"
+// life * 0.6
+// speed * 1.3
+// reload * 1.5
+// damage * 1.3
+// range * 1.1
+// bullet speed * 1.1
 size: 3
 consumes: {
   power: 3
@@ -19,16 +25,16 @@ requirements: [
   silicon/90
   // goldIngot/80
 ]
-/*upgrades: [
+upgrades: [
   [
-    goldenDagger, goldenMace
-  ]
+    000035-iri, 020035-enraged-iri
+  ]/*
   [
     goldenFlare, goldenHorizon
   ]
   [
     goldenCrawler, goldenAtrax
-  ]
-]*/
+  ]*/
+]/**/
 category: units
 research: additive-reconstructor

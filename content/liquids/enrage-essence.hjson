@@ -1,0 +1,6 @@
+name: Enrage Essence
+description: An essence that can make units and buildings became enraged.
+temperature: 0.9
+viscosity: 0.8
+effect: melting
+color: ff3636

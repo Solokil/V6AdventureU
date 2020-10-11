@@ -1,0 +1,11 @@
+type: material // ----- do not exists in V6
+name: Concentrated Fury
+description: The result of concentrating enrage essence into a molded glass
+hardness: 4
+cost: 3
+color: ff0000
+research: 0014-glass-refinery
+requirements: [
+lead/1
+copper/1
+]

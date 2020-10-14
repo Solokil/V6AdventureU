@@ -9,8 +9,7 @@ plans: [
   {
   unit: 000035-iri
   requirements: [
-    copper/8
-    lead/8
+    lead/12
     ironite/15
   ]
   time: 600

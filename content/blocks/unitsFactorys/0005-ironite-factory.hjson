@@ -1,6 +1,6 @@
 type: UnitFactory
-name: Ironite units Factory
-description: "Can produce fase 1 units using ironite"
+name: Ironite Ground Factory
+description: "Can produce fase 1 ironite units"
 size: 3
 consumes: {
   power: 2
@@ -8,7 +8,7 @@ consumes: {
 plans: [
   {
   unit: 000035-iri
-  requirements: [
+    requirements: [
     lead/12
     ironite/15
   ]

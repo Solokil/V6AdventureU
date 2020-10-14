@@ -13,16 +13,16 @@ description: "can makes any fase 1 or 2 (normal or enraged) adventure unit becam
 // bullet lifetime * 0.5
 size: 3
 consumes: {
-  power: 3
+  power: 4
   items: {
     items: [
-    concentrated-resistence/15
+    concentrated-resistence/20
     ]
   }
 }
 constructTime: 300
 requirements: [
-  concentrated-resistence/120
+  concentrated-resistence/150
 ]
 upgrades: [
   [

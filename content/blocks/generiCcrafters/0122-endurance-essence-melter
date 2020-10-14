@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: "Endurance Essence Melter"
+description: "Melts ironite and jiliorite in a large temperature to make Endurance Essence."
+liquidCapacity: 300
+buildCostMultiplier: 0.1
+outputLiquid: {
+  liquid: endurance-essence
+  amount: 30
+  // makes 60 per second cause of the crafting time
+}
+size: 2
+hasPower: true
+hasLiquids: true
+craftTime: 30
+updateEffect: smeltsmoke
+consumes: {
+  power: 3
+  items: {
+        items: [
+            ironite/3
+            jiliorite/3
+        ]
+    }
+}
+requirements: [
+  ironite/100
+  jilirite/140
+]
+category: crafting
+research: endurance-essence
+idleSound: respawning
+idleSoundVolume: 0.5

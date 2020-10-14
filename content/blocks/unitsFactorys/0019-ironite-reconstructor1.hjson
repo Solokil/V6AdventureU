@@ -18,16 +18,16 @@ requirements: [
   ironite/200
   // goldIngot/80
 ]
-/*upgrades: [
+upgrades: [
   [
-    goldenDagger, goldenMace
-  ]
+    001035-fly-iri, 001045-fly-iri-f2
+  ]/*
   [
     goldenFlare, goldenHorizon
   ]
   [
     goldenCrawler, goldenAtrax
-  ]
-]*/
+  ]/**/
+]
 category: units
 research: 0005-ironite-factory

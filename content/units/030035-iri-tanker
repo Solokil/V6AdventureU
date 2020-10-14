@@ -1,0 +1,53 @@
+type: MechUnit
+name: Lockeri Tanker
+speed: 0.15
+hitsize: 13
+flying: false
+health: 1900
+range: 320
+weapons: [
+  {
+  name: iri-sniper
+  x: -3
+  y: 0
+  reload: 70
+  alternate: true
+  ejectEffect: shellEjectSmall
+  bullet: {
+    lifetime: 65
+    speed: 5
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    damage: 100
+    bulletWidth: 8
+    bulletHeight: 12
+    // frontColor: ffffff // Color of front sprite.
+    // backColor: ffffff // Color of back sprite.
+  }}
+  
+  {
+  name: support-tank1
+  x: -9
+  y: -4
+  reload: 350
+  rotate: true
+  alternate: true
+  ejectEffect: shellEjectSmall
+  bullet: {
+    lifetime: 32
+    speed: 1
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    damage: 100
+    bulletWidth: 16
+    bulletHeight: 24
+    frontColor: 13f23c
+    backColor: 0c5200
+  }}
+] 
+
+  research: 5045-resistent-reconstructor1
+  /*requirements: [
+    lead/12
+    ironite/15
+  ]*/

@@ -1,31 +1,31 @@
 type: UnitEntity
-name: Interprin
-speed: 2
-hitsize: 13
-drag: 0.01
+name: Suprim
+speed: 3.2
+hitsize: 19
+drag: 0.5
 flying: true
-health: 225
-engineOffset: 5.5
+health: 600
+engineOffset: 5.7
 range: 140
 weapons: [{
-  length: 1.5
-  reload: 9
+  length: 2.5
+  reload: 30
   alternate: true
   ejectEffect: shellEjectSmall
    bullet: {
-    lifetime: 80
-    speed: 1
+    lifetime: 100
+    speed: 2
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    damage: 23
-    bulletWidth: 8
-    bulletHeight: 14
+    damage: 80
+    bulletWidth: 10
+    bulletHeight: 18
     // frontColor: ffffff // Color of front sprite.
     // backColor: ffffff // Color of back sprite.
   }
   //shootSound: shoot
 }]
-  research: 0005-ironite-factory
+  research: 0019-ironite-reconstructor1
 /*requirements: [
     lead/12
     ironite/15

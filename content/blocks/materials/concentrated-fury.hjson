@@ -1,8 +1,0 @@
-name: Concentrated Fury
-description: "This is the result of concentrating enrrage essence into a molded glass"
-requirements: [
-molded-glass/15
-]
-category: effect
-buildVisibility: debugOnly
-research: 0014-glass-refinery

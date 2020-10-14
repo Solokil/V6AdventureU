@@ -7,7 +7,7 @@ consumes: {
   items: {
     items: [
     graphite/30
-    ironite/35
+    ironite/75
     ]
   }
 }

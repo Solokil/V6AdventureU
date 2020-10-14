@@ -1,9 +1,0 @@
-name: Molded Glass
-description: "Takes energy and materials to make one piece of this, use it careful and don't waste it."
-requirements: [
-glass-fragment/10
-ironite/10
-]
-category: effect
-buildVisibility: debugOnly
-research: 0011-glass-breacker

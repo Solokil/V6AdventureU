@@ -4,3 +4,9 @@ temperature: 0.9
 viscosity: 0.8
 effect: melting
 color: ff3636
+research: 0014-glass-refinery
+requirements:
+[
+   thorium/20
+   titanium/15
+]

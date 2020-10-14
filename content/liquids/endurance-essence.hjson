@@ -1,0 +1,13 @@
+  
+name: Endurance Essence
+description: An essence that can make units and buildings became enraged.
+temperature: 0.9
+viscosity: 0.8
+effect: melting
+color: 27d948
+research: 0105-jiliorite-crafter
+requirements:
+[
+   ironite/20
+   jiliorite/15
+]

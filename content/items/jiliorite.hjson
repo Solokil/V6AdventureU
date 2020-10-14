@@ -3,7 +3,7 @@ name: Jiliorite
 description: A corrupted mineral, a simple and usefful one, very resistent abd green!
 hardness: 2
 cost: 5
-color: 00ed00
+color: 106b00
 
 research: ironite
 requirements: [

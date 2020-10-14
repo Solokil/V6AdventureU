@@ -27,10 +27,10 @@ upgrades: [
   ]
   [
     001035-fly-iri, 021035-enraged-fly-iri
-  ]/*
+  ]
   [
-    goldenCrawler, goldenAtrax
-  ]*/
-]/**/
+    001045-fly-iri-f2, 021045-enraged-fly-iri-f2
+  ]
+]
 category: units
 research: 0005-ironite-factory

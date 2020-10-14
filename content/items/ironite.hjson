@@ -1,6 +1,6 @@
 type: material // ----- do not exists in V6
 name: Ironite
-description: Easy to find and to use. This is the most simple disrupted mineral
+description: Easy to find and to use. This is the most simple corrupted mineral
 hardness: 2
 cost: 1
 color: d5dbe4

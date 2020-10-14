@@ -25,3 +25,9 @@ weapons: [
     // backColor: ffffff // Color of back sprite.
   }}
 ] 
+
+  research: 0005-ironite-factory
+  requirements: [
+    lead/12
+    ironite/15
+  ]

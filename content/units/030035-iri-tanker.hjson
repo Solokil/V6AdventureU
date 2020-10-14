@@ -46,7 +46,7 @@ weapons: [
   }}
 ] 
 
-  research: 5045-resistent-reconstructor1
+  research: 000035-iri
   /*requirements: [
     lead/12
     ironite/15

@@ -9,7 +9,7 @@ engineOffset: 5.5
 range: 140
 weapons: [{
   length: 1.5
-  reload: 6
+  reload: 9
   alternate: true
   ejectEffect: shellEjectSmall
    bullet: {

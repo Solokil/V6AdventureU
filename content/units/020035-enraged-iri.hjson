@@ -27,7 +27,7 @@ weapons: [
 ] 
 
   research: 000035-iri
-  requirements: [
+  /*requirements: [
     concentrated-fury/12
     ironite/5
-  ]
+  ]*/

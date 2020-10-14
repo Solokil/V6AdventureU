@@ -27,7 +27,7 @@ weapons: [
 ] 
 
   research: 0005-ironite-factory
-  requirements: [
+  /*requirements: [
     lead/12
     ironite/15
-  ]
+  ]*/

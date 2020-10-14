@@ -9,8 +9,15 @@ description: "can makes any fase 1 or 2 (normal or enraged) adventure unit becam
 // create new weapon with atributes from original unit not consider enraged:
 // reload * 5 (this makes the new weapon takes 5 times more time to shoot)
 // damage * 10
+// rotate = true
 // bullet speed * 0.2
 // bullet lifetime * 0.5
+/*
+    bulletWidth: *2
+    bulletHeight: *2
+    frontColor: 13f23c
+    backColor: 0c5200
+*/  
 size: 3
 consumes: {
   power: 4
@@ -27,13 +34,13 @@ requirements: [
 upgrades: [
   [
     000035-iri, 040035-iri-tanker
-  ]
+  ]/*
   [
     001035-fly-iri, 041035-fly-iri-tanker
-  ]
+  ]/*
   [
     030035-enraged-iri, 220035-enraged-iri-tanker
-  ]
+  ]/*
   [
     031035-enraged-fly-iri, 221035-enraged-fly-iri-tanker
   ]

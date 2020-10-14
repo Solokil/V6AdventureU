@@ -1,0 +1,32 @@
+type: GenericSmelter
+name: "Endurance Essence Concentrator"
+liquidCapacity: 180
+description: "Concentrates Endurance Essence in Molded Glass making Concentrated Resitence"
+outputItem: {
+  item: concentrated-resistence
+  amount: 1
+}
+buildCostMultiplier: 0.3
+size: 2
+hasPower: false
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  liquid: endurance-essence/1
+  items: {
+        items: [
+            molded-glass/1
+        ]
+    }
+}
+requirements: [
+  ironite/25
+  jiliorite/20
+  molded-glass/15
+]
+category: crafting
+research: concentrated-resistence
+idleSound: respawning
+idleSoundVolume: 0.5

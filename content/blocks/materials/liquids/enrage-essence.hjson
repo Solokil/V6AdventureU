@@ -1,9 +1,0 @@
-name: Enrage Essence
-description: "An essence that can make units and buildings became enraged."
-requirements: [
-thorium/20
-titanium/20
-]
-category: effect
-buildVisibility: debugOnly
-research: 0001-ironite-compress

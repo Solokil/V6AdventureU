@@ -1,0 +1,12 @@
+type: material // ----- do not exists in V6
+name: Concentrated Fury
+description: The result of concentrating enrage essence into a molded glass
+hardness: 4
+cost: 6
+color: 4fe36a
+research: 0122-endurance-essence-melter
+requirements: [
+molded-glass/3
+jiliorite/12
+ironite/10
+]

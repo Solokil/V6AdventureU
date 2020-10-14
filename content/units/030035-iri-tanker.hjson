@@ -29,16 +29,16 @@ weapons: [
   name: support-tank1
   x: -9
   y: -4
-  reload: 350
+  reload: 35
   rotate: true
   alternate: true
   ejectEffect: shellEjectSmall
   bullet: {
-    lifetime: 32
+    lifetime: 16
     speed: 1
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    damage: 100
+    damage: 200
     bulletWidth: 16
     bulletHeight: 24
     frontColor: 13f23c

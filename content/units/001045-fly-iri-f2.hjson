@@ -2,7 +2,7 @@ type: UnitEntity
 name: Suprim
 speed: 3.2
 hitsize: 19
-drag: 0.5
+drag: 0.08
 flying: true
 health: 600
 engineOffset: 5.7

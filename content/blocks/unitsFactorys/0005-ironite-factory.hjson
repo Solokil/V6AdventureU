@@ -1,5 +1,5 @@
 type: UnitFactory
-name: Ironite Ground Factory
+name: Ironite Units Factory
 description: "Can produce fase 1 ironite units"
 size: 3
 consumes: {

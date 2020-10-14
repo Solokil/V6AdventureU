@@ -13,16 +13,16 @@ plans: [
     ironite/15
   ]
   time: 600
-  }/*
-  {
-  unit: ghost
-  requirements: [
-    shinyAlloy/4
-  ]
-  time: 1200
   }
   {
-  unit: hammer
+  unit: 001035-fly-iri
+  requirements: [
+    ironite/28
+  ]
+  time: 800
+  }/*
+  {
+  unit: 001035-fly-iri
   requirements: [
     silicon/30
     titanium/20

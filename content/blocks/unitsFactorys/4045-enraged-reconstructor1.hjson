@@ -23,10 +23,10 @@ requirements: [
 upgrades: [
   [
     000035-iri, 020035-enraged-iri
-  ]/*
-  [
-    goldenFlare, goldenHorizon
   ]
+  [
+    001035-fly-iri, 021035-enraged-fly-iri
+  ]/*
   [
     goldenCrawler, goldenAtrax
   ]*/

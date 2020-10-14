@@ -25,3 +25,9 @@ weapons: [
     backColor: ff2424 // Color of back sprite.
   }}
 ] 
+
+  research: 000035-iri
+  requirements: [
+    concentrated-fury/12
+    ironite/5
+  ]

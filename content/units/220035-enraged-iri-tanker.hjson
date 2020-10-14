@@ -1,0 +1,53 @@
+type: MechUnit
+name: Enraged Lockeri Tanker
+speed: 0.195
+hitsize: 13
+flying: false
+health: 1140
+range: 352
+weapons: [
+  {
+  name: enraged-sniper
+  x: -3
+  y: 0
+  reload: 47
+  alternate: true
+  ejectEffect: shellEjectSmall
+  bullet: {
+    lifetime: 71
+    speed: 5.5
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    damage: 130
+    bulletWidth: 8
+    bulletHeight: 14
+    frontColor: ff8282 // Color of front sprite.
+    backColor: ff2424 // Color of back sprite.
+  }}
+  
+  {
+  name: support-tank1
+  x: -9
+  y: -4
+  reload: 35
+  rotate: true
+  alternate: true
+  ejectEffect: shellEjectSmall
+  bullet: {
+    lifetime: 16
+    speed: 1
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    damage: 200
+    bulletWidth: 16
+    bulletHeight: 24
+    frontColor: 13f23c
+    backColor: 0c5200
+  }}
+] 
+
+  research: 030035-iri-tanker
+  /*requirements: [
+    concentrated-fury/12
+    ironite/5
+  ]*/

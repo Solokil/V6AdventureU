@@ -1,9 +1,0 @@
-name: Ironite
-description: Unlock this disrupted mineral to start your underground adventure!
-requirements: [
-lead/1
-copper/1
-]
-category: effect
-buildVisibility: debugOnly
-research: core-shard

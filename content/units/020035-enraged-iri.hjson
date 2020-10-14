@@ -10,7 +10,7 @@ weapons: [
   name: enraged-sniper
   x: -3
   y: 0
-  reload: 105
+  reload: 47
   alternate: true
   ejectEffect: shellEjectSmall
   bullet: {

@@ -1,27 +1,28 @@
 type: UnitEntity
-name: Suprim
-speed: 3.2
+name: Enraged Suprim
+speed: 4.16
 hitsize: 19
 drag: 0.08
 flying: true
-health: 600
+health: 360
 engineOffset: 5.7
-range: 140
+range: 154
 weapons: [{
   length: 2.5
-  reload: 30
+  reload: 20
   alternate: true
   ejectEffect: shellEjectSmall
    bullet: {
-    lifetime: 100
-    speed: 2
+    lifetime: 110
+    speed: 2.2
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    damage: 80
+    damage: 104
     bulletWidth: 10
     bulletHeight: 18
-    // frontColor: ffffff // Color of front sprite.
-    // backColor: ffffff // Color of back sprite.
+    
+    frontColor: ff8282 // Color of front sprite.
+    backColor: ff2424 // Color of back sprite.
   }
   //shootSound: shoot
 }]

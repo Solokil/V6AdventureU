@@ -1,5 +1,5 @@
 type: Reconstructor
-name: Fase 2 units Reconstructor
+name: Fase 2 ironite units Reconstructor
 description: "Upgrade fase 1 ironite units into fase 2 using ironite tree"
 size: 3
 consumes: {

@@ -1,9 +1,0 @@
-name: Glass Fragment
-description: "A piece of broken Meta Glass"
-requirements: [
-metaglass/2
-ironite/2
-]
-category: effect
-buildVisibility: debugOnly
-research: 0001-ironite-compress

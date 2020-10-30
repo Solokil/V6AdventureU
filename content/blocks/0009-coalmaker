@@ -1,0 +1,31 @@
+type: GenericCrafter
+name: "Scoal alchemy"
+// liquidCapacity: 180
+description: "Uses alchemy to turn sand and copper into coal, alchemy is a hard process so it will take a while..."
+outputItem: {
+  item: coal
+  amount: 1
+}
+buildCostMultiplier: 0.3
+size: 1
+hasPower: false
+hasLiquids: false
+hasItems: true
+craftTime: 270
+updateEffect: smeltsmoke
+consumes: {
+  //liquid: enrage-essence/1
+  items: {
+        items: [
+            sand/3
+        ]
+    }
+}
+requirements: [
+  jiliorite/30
+  lead/25
+]
+category: crafting
+research: 0008-sanderizer
+idleSound: respawning
+idleSoundVolume: 0.5

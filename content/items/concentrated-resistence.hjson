@@ -1,6 +1,6 @@
 type: material // ----- do not exists in V6
-name: Concentrated Fury
-description: The result of concentrating enrage essence into a molded glass
+name: Concentrated Resistence
+description: The result of concentrating endurance essence into a molded glass
 hardness: 4
 cost: 6
 color: 4fe36a

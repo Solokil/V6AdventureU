@@ -1,0 +1,31 @@
+type: GenericCrafter
+name: "Sanderizer"
+// liquidCapacity: 180
+description: "Rubs one jiliorite on the other until it forms sand"
+outputItem: {
+  item: sand
+  amount: 1
+}
+buildCostMultiplier: 0.3
+size: 1
+hasPower: false
+hasLiquids: false
+hasItems: true
+craftTime: 90
+updateEffect: smeltsmoke
+consumes: {
+  //liquid: enrage-essence/1
+  items: {
+        items: [
+            jiliorite/2
+        ]
+    }
+}
+requirements: [
+  jiliorite/25
+  lead/18
+]
+category: crafting
+research: jiliorite
+idleSound: respawning
+idleSoundVolume: 0.5

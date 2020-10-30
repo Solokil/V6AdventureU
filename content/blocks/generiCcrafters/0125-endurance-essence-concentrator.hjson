@@ -1,7 +1,7 @@
 type: GenericSmelter
 name: "Endurance Essence Concentrator"
 liquidCapacity: 180
-description: "Concentrates Endurance Essence in Molded Glass making Concentrated Resitence"
+description: "Concentrates Endurance Essence in Molded Glass making Concentrated Resistence"
 outputItem: {
   item: concentrated-resistence
   amount: 1

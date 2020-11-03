@@ -12,7 +12,7 @@ weapons: [
   y: 0
   reload: 47
   alternate: true
-  ejectEffect: shellEjectSmall
+ //ejectEffect: shellEjectSmall
   bullet: {
     lifetime: 71
     speed: 5.5

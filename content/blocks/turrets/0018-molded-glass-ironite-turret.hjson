@@ -7,7 +7,7 @@ reloadTime: 300
 range: 400
 maxAmmo: 10 //default is 30
 ammoPerShot: 10
-ammoUseEffect: shellEjectSmall
+//ammoUseEffect: shellEjectSmall
 inaccuracy: 10
 buildCostMultiplier: 0.1
 rotatespeed: 19

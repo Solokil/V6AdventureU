@@ -11,7 +11,7 @@ reloadTime: 70
 range: 350
 inaccuracy: 0
 coolantMultiplier: 30
-ammoUseEffect: shellEjectSmall
+//ammoUseEffect: shellEjectSmall
 rotatespeed: 10
 targetAir: true
 ammoTypes: {

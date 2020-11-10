@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: "Jiliorite Crafter"
+// liquidCapacity: 180
+description: "A Greenhouse that can produce wood by planting trees and cuting them with ironite, the wood is hard so it spends an amount of ironite that get lost at the process and uses water to grow the trees"
+outputItem: {
+  item: wood
+  amount: 1
+}
+buildCostMultiplier: 0.3
+size: 3
+hasPower: false
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  liquid: water/0.1
+  items: {
+        items: [
+            ironite/5
+        ]
+    }
+}
+requirements: [
+  molded-glass/75
+  ironite/100
+  jiliorite/70
+]
+category: crafting
+research: wood
+idleSound: respawning
+idleSoundVolume: 0.4

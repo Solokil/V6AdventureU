@@ -1,0 +1,36 @@
+type: Reconstructor
+name: Fase 4 ironite units Reconstructor
+description: "Upgrade fase 3 ironite units into fase 4 using ironite tree"
+size: 5
+consumes: {
+  power: 3
+  items: {
+    items: [
+    molded-glass/15
+    wood/50
+    ironite/100
+    ]
+  }
+}
+constructTime: 1800
+requirements: [
+  thorium/150
+  molded-glass/50
+  wood/300
+  lead/220
+  ironite/400
+  // goldIngot/80
+]
+upgrades: [/*
+  [
+    001035-fly-iri, 001045-fly-iri-f2
+  ]/*
+  [
+    goldenFlare, goldenHorizon
+  ]
+  [
+    goldenCrawler, goldenAtrax
+  ]/**/
+]
+category: units
+research: 0029-ironite-reconstructor2

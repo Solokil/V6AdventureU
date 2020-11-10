@@ -6,14 +6,15 @@ consumes: {
   power: 3
   items: {
     items: [
-    graphite/30
-    ironite/75
+    molded-glass/45
+    ironite/90
     ]
   }
 }
-constructTime: 900
+constructTime: 1800
 requirements: [
-  wood/200
+  titanium/100
+  molded-glass/200
   lead/120
   ironite/300
   // goldIngot/80

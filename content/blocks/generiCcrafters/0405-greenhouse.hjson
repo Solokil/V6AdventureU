@@ -1,5 +1,5 @@
 type: GenericCrafter
-name: "Jiliorite Crafter"
+name: Greenhouse"
 // liquidCapacity: 180
 description: "A Greenhouse that can produce wood by planting trees and cuting them with ironite, the wood is hard so it spends an amount of ironite that get lost at the process and uses water to grow the trees"
 outputItem: {

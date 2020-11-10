@@ -1,11 +1,12 @@
 //type: material // ----- do not exists in V6
 name: Wood
-description: wood produced in large greenhouses.
+description: wood produced in greenhouses.
 hardness: 2
 cost: 2
 color: d69e49
-research: jiliorite
+research: molded-glass
 requirements: [
-lead/1
-copper/1
+  molded-glass/5
+  ironite/7
+  jiliorite/2
 ]

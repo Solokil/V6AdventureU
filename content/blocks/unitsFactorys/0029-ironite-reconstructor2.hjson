@@ -1,7 +1,7 @@
 type: Reconstructor
 name: Fase 3 ironite units Reconstructor
 description: "Upgrade fase 2 ironite units into fase 3 using ironite tree"
-size: 3
+size: 5
 consumes: {
   power: 3
   items: {

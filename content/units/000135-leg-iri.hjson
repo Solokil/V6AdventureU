@@ -1,14 +1,17 @@
-itemCapacity: 20
+type: UnitEntity
 name: ispinidini
 speed: 0.8
 drag: 0.4
 hitsize: 13
 rotateSpeed: 3
+
 health: 250
+armor: 0.5
 immunities: [
   burning, melting
   ]
 
+allowLegStep: true
 legCount: 4
 legLength: 11
 legTrns: 0.8
@@ -21,11 +24,11 @@ rippleScale: 3
 legSplashDamage: 10
 legSplashRange: 10
 
-hovering: true
-armor: 0.5
-buildSpeed: 0.8
-allowLegStep: true
 visualElevation: 0.2
+hovering: true
+
+itemCapacity: 20
+buildSpeed: 0.8
 weapons: [
 {
   name: iri-sniper

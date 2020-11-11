@@ -44,5 +44,6 @@ weapons: [
     // frontColor: ffffff // Color of front sprite.
     // backColor: ffffff // Color of back sprite.
   }
+}
 ]
 research: 0005-ironite-factory

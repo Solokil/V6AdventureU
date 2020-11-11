@@ -1,0 +1,32 @@
+type: UnitEntity
+name: Suprim
+speed: 3.2
+hitsize: 19
+drag: 0.08
+flying: true
+health: 600
+engineOffset: 5.7
+range: 140
+weapons: [{
+  length: 2.5
+  reload: 45
+  alternate: true
+  //ejectEffect: shellEjectSmall
+   bullet: {
+    lifetime: 90
+    speed: 2.2
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    damage: 100
+    width: 13
+    height: 21
+    // frontColor: ffffff // Color of front sprite.
+    // backColor: ffffff // Color of back sprite.
+  }
+  //shootSound: shoot
+}]
+  research: 001035-fly-iri
+/*requirements: [
+    lead/12
+    ironite/15
+  ]*/

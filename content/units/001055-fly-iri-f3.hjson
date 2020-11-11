@@ -4,14 +4,15 @@ speed: 3.2
 hitsize: 19
 drag: 0.08
 flying: true
-health: 600
+health: 2000
 engineOffset: 5.7
 range: 140
-weapons: [{
-  length: 2.5
+weapons: [
+{
+  x: 3
+  y: 4
   reload: 45
   alternate: true
-  //ejectEffect: shellEjectSmall
    bullet: {
     lifetime: 90
     speed: 2.2
@@ -23,9 +24,41 @@ weapons: [{
     // frontColor: ffffff // Color of front sprite.
     // backColor: ffffff // Color of back sprite.
   }
-  //shootSound: shoot
-}]
-  research: 001035-fly-iri
+}
+{
+  x: 0
+  y: 0
+  shootY: 20
+  mirror: false
+  
+  rotate: true
+  
+  reload: 320
+  recoil: 0
+  shootSound: laser
+  continuous: true
+  cooldownTime: 200
+
+   bullet: {
+    type: ContinuousLaserBulletType
+            length: 150
+            hitEffect: hitMeltHeal
+            drawSize: 420
+            lifetime: 160
+            shake: 1
+            despawnEffect: smokeCloud
+            smokeEffect: none
+
+            shootEffect: greenLaserChargeSmall
+
+            incendChance: 0.05
+            incendSpread: 5
+            incendAmount: 1
+
+  }
+}
+]
+  research: 001045-fly-iri-f2
 /*requirements: [
     lead/12
     ironite/15

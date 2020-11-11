@@ -1,6 +1,6 @@
 type: Reconstructor
 name: Tanker Reconstructor T2
-description: "can makes any fase 1, 2, 3 and 4 (normal or enraged) adventure unit becames tanker"
+description: "can makes fase 1, 2, 3 and 4 (normal or enraged) adventure unit becames tanker"
 // multiply the total unit value by/those:
 // life * 3.8  
 // speed * 0.15

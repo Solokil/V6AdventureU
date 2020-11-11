@@ -1,9 +1,9 @@
 type: UnitEntity
-name: Suprim
-speed: 3.2
+name: Wingenu
+speed: 1.8
 hitsize: 19
 drag: 0.08
-flying: true
+hovering: true
 health: 2000
 engineOffset: 5.7
 range: 140
@@ -15,7 +15,7 @@ weapons: [
   alternate: true
    bullet: {
     lifetime: 90
-    speed: 2.2
+    speed: 2.5
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     damage: 100

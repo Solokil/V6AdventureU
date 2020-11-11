@@ -23,14 +23,8 @@ requirements: [
 ]
 upgrades: [/*
   [
-    001035-fly-iri, 001045-fly-iri-f2
-  ]/*
-  [
-    goldenFlare, goldenHorizon
+    001055-fly-iri-f3, 001065-fly-iri-f4
   ]
-  [
-    goldenCrawler, goldenAtrax
-  ]/**/
 ]
 category: units
 research: 0029-ironite-reconstructor2

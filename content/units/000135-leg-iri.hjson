@@ -1,5 +1,5 @@
-//type: LegUnit
-//name: ispinidini
+type: LegsUnit
+name: ispinidini
 drag: 0.4
 legCount: 4
 hitsize: 13

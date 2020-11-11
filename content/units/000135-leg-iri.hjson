@@ -1,10 +1,10 @@
 //type: UnitEntity
 //name: ispinidini
-speed: 0.8
 drag: 0.4
 hitsize: 13
 rotateSpeed: 3
 
+speed: 0.8
 health: 250
 armor: 0.5
 immunities: [

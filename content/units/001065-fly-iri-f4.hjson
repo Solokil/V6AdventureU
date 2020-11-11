@@ -1,1 +1,32 @@
 
+type: UnitEntity
+name: G.O.S.T.
+speed: 2.0
+hitsize: 23
+drag: 0.08
+flying: true
+health: 4500
+engineOffset: 5.7
+range: 140
+weapons: [
+{
+  x: 3
+  y: 6
+  reload: 60
+  alternate: false
+   bullet: {
+    lifetime: 90
+    speed: 2.2
+    damage: 350
+    width: 0
+    height: 0
+    // frontColor: ffffff // Color of front sprite.
+    // backColor: ffffff // Color of back sprite.
+  }
+}
+]
+  research: 001055-fly-iri-f3
+/*requirements: [
+    lead/12
+    ironite/15
+  ]*/

@@ -15,21 +15,20 @@ plans: [
   time: 600
   }
   {
+  unit: 000135-leg-iri
+    requirements: [
+    lead/12
+    ironite/15
+  ]
+  time: 600
+  }
+  {
   unit: 001035-fly-iri
   requirements: [
     ironite/28
   ]
   time: 800
-  }/*
-  {
-  unit: 001035-fly-iri
-  requirements: [
-    silicon/30
-    titanium/20
-    shinyAlloy/10
-    ]
-  time: 900
-  }*/
+  }
 ]
 requirements: [
   copper/90

@@ -21,7 +21,7 @@ requirements: [
   ironite/400
   // goldIngot/80
 ]
-upgrades: [/*
+upgrades: [
   [
     001055-fly-iri-f3, 001065-fly-iri-f4
   ]

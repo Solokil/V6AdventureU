@@ -17,8 +17,8 @@ plans: [
   {
   unit: 000135-leg-iri
     requirements: [
-    lead/12
-    ironite/15
+    copper/15
+    ironite/18
   ]
   time: 600
   }

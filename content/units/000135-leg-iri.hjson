@@ -1,17 +1,26 @@
 itemCapacity: 20
-speed: 1
+name: ispinidini
+speed: 0.8
 drag: 0.4
 hitsize: 13
 rotateSpeed: 3
-health: 200
+health: 250
 immunities: [
   burning, melting
   ]
+
 legCount: 4
 legLength: 11
 legTrns: 0.8
 legMoveSpace: 1.5
 legBaseOffset: 2
+landShake: 0
+legSpeed: 1
+legLengthScl: 0.93
+rippleScale: 3
+legSplashDamage: 10
+legSplashRange: 10
+
 hovering: true
 armor: 0.5
 buildSpeed: 0.8

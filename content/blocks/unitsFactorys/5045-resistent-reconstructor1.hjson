@@ -18,7 +18,7 @@ description: "can makes any fase 1, 2, 3 and 4 (normal or enraged) adventure uni
     frontColor: 13f23c
     backColor: 0c5200
 */  
-size: 3
+size: 5
 consumes: {
   power: 4
   items: {
@@ -30,6 +30,8 @@ consumes: {
 constructTime: 300
 requirements: [
   concentrated-resistence/150
+  copper/1000
+  lead/500
 ]
 upgrades: [
   [

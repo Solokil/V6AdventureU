@@ -19,12 +19,15 @@ ammoTypes: {
   jiliorite: {
   speed: 2.5
   lifetime: 75 // 2 * 75f = 187.5 spaces /8 = 23.43 blocos
-  damage: 20
+  damage: 12
   width: 4
   height: 8
   frontColor: c4ffc4
   backColor: 00f500
   ammoMultiplier: 12
+  
+  splashDamageRadious: 12
+  splashDamage: 6
   }
   copper: {
   speed: 2

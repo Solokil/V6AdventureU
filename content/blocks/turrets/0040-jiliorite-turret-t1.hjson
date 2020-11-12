@@ -8,7 +8,7 @@ hasLiquids: true
 liquidCapacity: 15
 buildCostMultiplier: 0.3
 reloadTime: 20
-range: 146
+range: 75
 maxAmmo: 50
 inaccuracy: 6
 coolantMultiplier: 30
@@ -18,7 +18,7 @@ targetAir: true
 ammoTypes: {
   jiliorite: {
   speed: 2.5
-  lifetime: 75 // 2 * 75f = 187.5 spaces /8 = 23.43 blocos
+  lifetime: 32.5 // 2 * 75f = 187.5 spaces /8 = 23.43 blocos
   damage: 12
   width: 4
   height: 8
@@ -31,7 +31,7 @@ ammoTypes: {
   }
   copper: {
   speed: 2
-  lifetime: 75 // 2 * 75f = 150 spaces /8 = 18.75 blocos
+  lifetime: 32.5 // 2 * 75f = 150 spaces /8 = 18.75 blocos
   damage: 9
   width: 3
   height: 5
@@ -41,7 +41,7 @@ ammoTypes: {
   }
   scrap: {
   speed: 2.5
-  lifetime: 60 // 2.5 * 60f = 150 spaces /8 = 18.75 blocos
+  lifetime: 30 // 2.5 * 60f = 150 spaces /8 = 18.75 blocos
   damage: 10
   width: 3
   height: 5
@@ -51,7 +51,7 @@ ammoTypes: {
   }
 }
 requirements: [
-  jiliorite/10
+  jiliorite/20
   copper/30
 ]
 category: turret

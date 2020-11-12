@@ -20,7 +20,7 @@ ammoTypes: {
   type: MissileBulletType
   speed: 3
   lifetime: 240 // 240 * 3 / 8 = 90 blocos (apesar do baixo range)
-  damage: 10
+  damage: 1
   pierce: true
   
   width: 4
@@ -29,6 +29,8 @@ ammoTypes: {
   frontColor: c4ffc4
   backColor: 00f500
   
+  splashDamageRadious: 8
+  splashDamage: 2
   homingPower: 0.4
   homingRange: 24
   

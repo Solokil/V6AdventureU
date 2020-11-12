@@ -17,7 +17,7 @@ rotatespeed: 15
 targetAir: true
 ammoTypes: {
   
-  endurance-essence: {
+  concentrated-resistence: {
   type: MissileBulletType
   speed: 3.1
   lifetime: 520

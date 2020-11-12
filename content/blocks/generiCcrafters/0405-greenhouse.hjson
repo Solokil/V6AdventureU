@@ -14,7 +14,7 @@ hasItems: true
 craftTime: 60
 updateEffect: smeltsmoke
 consumes: {
-  liquid: water/0.1
+  liquid: water/0.25
   items: {
         items: [
             ironite/5

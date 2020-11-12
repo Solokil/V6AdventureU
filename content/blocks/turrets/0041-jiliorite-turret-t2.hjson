@@ -1,0 +1,84 @@
+type: ItemTurret
+name: Lomi
+description: Armored turret with low range, a defense that can be placed in front lines against medium waves.
+health: 1375
+size: 2
+hasItems: true
+hasLiquids: true
+liquidCapacity: 15
+buildCostMultiplier: 0.3
+reloadTime: 20
+range: 160 // 20 blocos
+maxAmmo: 50
+inaccuracy: 8
+coolantMultiplier: 30
+//ammoUseEffect: shellEjectSmall
+rotatespeed: 8
+targetAir: true
+ammoTypes: {
+  concentrated-resistence: {
+  type: MissileBulletType
+  
+  homingPower: 0.8
+  homingRange: 15
+  
+  speed: 3
+  lifetime: 130
+  damage: 500
+  width: 10
+  height: 20
+  frontColor: c4ffc4
+  backColor: 00f500
+  ammoMultiplier: 10
+  
+  splashDamageRadious: 30
+  splashDamage: 130
+  }
+  jiliorite: {
+  speed: 2.5
+  lifetime: 110
+  damage: 75
+  width: 8
+  height: 16
+  frontColor: c4ffc4
+  backColor: 00f500
+  ammoMultiplier: 12
+  
+  splashDamageRadious: 23
+  splashDamage: 21
+  }
+  copper: {
+  speed: 2
+  lifetime: 115
+  damage: 45
+  width: 6
+  height: 10
+  frontColor: c4ffc4
+  backColor: 00f500
+  ammoMultiplier: 6
+  }
+  scrap: {
+  speed: 2.5
+  lifetime: 80
+  damage: 50
+  width: 6
+  height: 10
+  frontColor: c4ffc4
+  backColor: 00f500
+  ammoMultiplier: 5
+  }
+}
+requirements: [
+  jiliorite/125
+  copper/200
+  molded-glass/25
+]
+category: turret
+research: 0040-jiliorite-turret-t1
+consumes: {
+liquid: {
+liquid: water
+amount: 0.1
+optional: true
+booster: true
+}}

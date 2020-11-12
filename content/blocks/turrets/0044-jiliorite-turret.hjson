@@ -42,7 +42,7 @@ requirements: [
   copper/40
 ]
 category: turret
-research: 0002-sniper-ironite-turret
+research: 0040-jiliorite-turret-t1
 consumes: {
 liquid: {
 liquid: endurance-essence

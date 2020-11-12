@@ -1,0 +1,62 @@
+type: ItemTurret
+name: Pino
+description: Armored turret with low range, a basic defense that can be placed in front lines against simple waves.
+health: 320
+size: 1
+hasItems: true
+hasLiquids: true
+liquidCapacity: 15
+buildCostMultiplier: 0.3
+reloadTime: 20
+range: 146
+maxAmmo: 50
+inaccuracy: 0
+coolantMultiplier: 30
+//ammoUseEffect: shellEjectSmall
+rotatespeed: 8
+targetAir: true
+ammoTypes: {
+  jiliorite: {
+  speed: 2.5
+  lifetime: 75 // 2 * 75f = 187.5 spaces /8 = 23.43 blocos
+  damage: 20
+  width: 4
+  height: 8
+  frontColor: c4ffc4
+  backColor: 00f500
+  ammoMultiplier: 12
+  }
+  copper: {
+  speed: 2
+  lifetime: 75 // 2 * 75f = 150 spaces /8 = 18.75 blocos
+  damage: 9
+  width: 3
+  height: 5
+  frontColor: c4ffc4
+  backColor: 00f500
+  ammoMultiplier: 6
+  }
+  scrap: {
+  speed: 2.5
+  lifetime: 60 // 2.5 * 60f = 150 spaces /8 = 18.75 blocos
+  damage: 10
+  width: 3
+  height: 5
+  frontColor: c4ffc4
+  backColor: 00f500
+  ammoMultiplier: 5
+  }
+}
+requirements: [
+  jiliorite/10
+  copper/30
+]
+category: turret
+research: 0002-sniper-ironite-turret
+consumes: {
+liquid: {
+liquid: water
+amount: 0.1
+optional: true
+booster: true
+}}

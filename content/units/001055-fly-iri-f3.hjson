@@ -33,7 +33,7 @@ weapons: [
   
   rotate: true
   
-  reload: 320
+  reload: 520
   recoil: 0
   shootSound: laser
   continuous: true
@@ -41,7 +41,8 @@ weapons: [
 
    bullet: {
     type: ContinuousLaserBulletType
-            length: 150
+            damage: 3
+            length: 15
             hitEffect: hitMeltHeal
             drawSize: 420
             lifetime: 160

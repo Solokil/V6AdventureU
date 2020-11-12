@@ -10,7 +10,7 @@ buildCostMultiplier: 0.3
 reloadTime: 20
 range: 146
 maxAmmo: 50
-inaccuracy: 0
+inaccuracy: 6
 coolantMultiplier: 30
 //ammoUseEffect: shellEjectSmall
 rotatespeed: 8

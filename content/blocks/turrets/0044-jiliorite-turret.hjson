@@ -31,7 +31,7 @@ ammoTypes: {
   
   splashDamageRadious: 8
   splashDamage: 2
-  homingPower: 0.4
+  homingPower: 0.02
   homingRange: 24
   
   ammoMultiplier: 4

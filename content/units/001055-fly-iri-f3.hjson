@@ -28,20 +28,20 @@ weapons: [
 {
   x: 0
   y: 0
-  shootY: 20
+  shootY: 22
   mirror: false
   
   rotate: true
   
-  reload: 520
+  reload: 125
   recoil: 0
   shootSound: laser
   continuous: true
-  cooldownTime: 200
+  cooldownTime: 80
 
    bullet: {
     type: ContinuousLaserBulletType
-            damage: 3
+            damage: 10
             length: 15
             hitEffect: hitMeltHeal
             drawSize: 420
@@ -52,7 +52,7 @@ weapons: [
 
             shootEffect: greenLaserChargeSmall
 
-            incendChance: 0.05
+            incendChance: 0.15
             incendSpread: 5
             incendAmount: 1
 

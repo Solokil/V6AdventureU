@@ -7,7 +7,7 @@ drag: 0.08
 flying: true
 health: 4500
 engineOffset: 5.7
-range: 140
+range: 180
 weapons: [
 {
   x: 3
@@ -17,7 +17,7 @@ weapons: [
    bullet: {
     lifetime: 90
     speed: 2.2
-    damage: 350
+    damage: 425
     width: 0
     height: 0
     // frontColor: ffffff // Color of front sprite.

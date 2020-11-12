@@ -45,7 +45,7 @@ weapons: [
             length: 15
             hitEffect: hitMeltHeal
             drawSize: 420
-            lifetime: 160
+            lifetime: 100
             shake: 1
             despawnEffect: smokeCloud
             smokeEffect: none

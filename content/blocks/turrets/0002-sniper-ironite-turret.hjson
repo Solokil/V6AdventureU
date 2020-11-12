@@ -20,8 +20,8 @@ ammoTypes: {
     speed: 6
     lifetime: 57
     damage: 80
-    bulletWidth: 7
-    bulletHeight: 16
+    width: 7
+    height: 16
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 3
@@ -30,8 +30,8 @@ ammoTypes: {
   speed: 3
   damage: 35
   lifetime: 115
-  bulletWidth: 9
-  bulletHeight: 11
+  width: 9
+  height: 11
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
   ammoMultiplier: 1
@@ -40,8 +40,8 @@ ammoTypes: {
   speed: 4.5
   lifetime: 77
   damage: 40
-  bulletWidth: 10
-  bulletHeight: 13
+  width: 10
+  height: 13
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
   ammoMultiplier: 2
@@ -50,8 +50,8 @@ ammoTypes: {
   speed: 2
   lifetime: 172 // 4s * 60f = 240 frames
   damage: 50
-  bulletWidth: 10
-  bulletHeight: 15
+  width: 10
+  height: 15
   shootEffect: shootSmall
   smokeEffect: shootSmallSmoke
   ammoMultiplier: 1

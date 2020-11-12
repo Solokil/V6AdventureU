@@ -19,8 +19,8 @@ ammoTypes: {
   concentrated-resistence: {
   type: MissileBulletType
   
-  homingPower: 0.8
-  homingRange: 15
+  homingPower: 0.05
+  homingRange: 60
   
   speed: 3
   lifetime: 130

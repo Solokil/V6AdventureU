@@ -3,10 +3,10 @@ name: Wingenu
 speed: 1.8
 hitsize: 19
 drag: 0.08
-hovering: true
+flying: true
 health: 2000
 engineOffset: 5.7
-range: 140
+range: 160
 weapons: [
 {
   x: 3

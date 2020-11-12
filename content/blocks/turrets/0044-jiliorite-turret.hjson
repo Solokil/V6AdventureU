@@ -1,0 +1,50 @@
+type: ItemTurret
+name: Striker I
+description: A turret great at close combat! (bullets have low damage but a lot life time!)
+health: 1540
+size: 2
+hasItems: true
+hasLiquids: true
+liquidCapacity: 15
+buildCostMultiplier: 0.3
+reloadTime: 15
+range: 120
+inaccuracy: 15
+coolantMultiplier: 60
+//ammoUseEffect: shellEjectSmall
+rotatespeed: 15
+targetAir: true
+ammoTypes: {
+  
+  jiliorite: {
+  type: MissileBulletType
+  speed: 3
+  lifetime: 240 // 240 * 3 / 8 = 90 blocos (apesar do baixo range)
+  damage: 10
+  pierce: true
+  
+  width: 4
+  height: 6
+  
+  frontColor: c4ffc4
+  backColor: 00f500
+  
+  homingPower: 0.4
+  homingRange: 24
+  
+  ammoMultiplier: 4
+  }
+}
+requirements: [
+  jiliorite/75
+  copper/40
+]
+category: turret
+research: 0002-sniper-ironite-turret
+consumes: {
+liquid: {
+liquid: endurance-essence
+amount: 0.1
+optional: true
+booster: true
+}}

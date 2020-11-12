@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Striker I
-description: A turret great at close combat! (bullets have low damage but a lot life time!)
+description: A turret great against swarm of units! (bullets have low damage but a lot life time!)
 health: 1540
 size: 2
 hasItems: true
@@ -9,6 +9,7 @@ liquidCapacity: 15
 buildCostMultiplier: 0.3
 reloadTime: 15
 range: 120
+maxAmmo: 50
 inaccuracy: 15
 coolantMultiplier: 60
 //ammoUseEffect: shellEjectSmall
@@ -16,10 +17,31 @@ rotatespeed: 15
 targetAir: true
 ammoTypes: {
   
+  endurance-essence: {
+  type: MissileBulletType
+  speed: 3.1
+  lifetime: 520
+  damage: 20
+  pierce: true
+  
+  width: 8
+  height: 12
+  
+  frontColor: c4ffc4
+  backColor: 00f500
+  
+  splashDamageRadious: 12
+  splashDamage: 20
+  homingPower: 0.077
+  homingRange: 50
+  
+  ammoMultiplier: 8
+  }
+  
   jiliorite: {
   type: MissileBulletType
   speed: 3
-  lifetime: 240 // 240 * 3 / 8 = 90 blocos (apesar do baixo range)
+  lifetime: 480 // 480 * 3 / 8 = 180 blocos (apesar do baixo range)
   damage: 1
   pierce: true
   

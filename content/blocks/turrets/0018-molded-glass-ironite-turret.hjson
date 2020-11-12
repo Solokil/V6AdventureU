@@ -5,8 +5,8 @@ health: 2650
 size: 3
 reloadTime: 300
 range: 400
-maxAmmo: 10 //default is 30
-ammoPerShot: 10
+maxAmmo: 8
+ammoPerShot: 4
 //ammoUseEffect: shellEjectSmall
 inaccuracy: 10
 buildCostMultiplier: 0.1

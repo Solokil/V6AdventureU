@@ -7,11 +7,11 @@ tier: 15
 buildCostMultiplier: 0.1
 drillTime: 480
 liquidCapacity: 36
-liquidBoostIntensity: 6
+liquidBoostIntensity: 7.1
 consumes: {
   liquid: {
     liquid: endurance-essence
-    amount: 0.3
+    amount: 0.2
 	optional: true
     booster: true
   }

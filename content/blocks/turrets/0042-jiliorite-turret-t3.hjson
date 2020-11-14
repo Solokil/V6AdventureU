@@ -56,7 +56,7 @@ requirements: [
   wood/130
 ]
 category: turret
-research: 0041jiliorite-turret-t2
+research: 0041-jiliorite-turret-t2
 consumes: {
 liquid: {
 liquid: endurance-essence

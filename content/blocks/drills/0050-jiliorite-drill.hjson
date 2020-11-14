@@ -1,12 +1,13 @@
 name: Jiliorite Drill
 description: Made with a large amount of jiliorite, it is very resistent and can mine almost everything.. can be speeded up with endurance essence.
 type: Drill
-health: 500
+health: 600
 size: 2
 tier: 15
 buildCostMultiplier: 0.1
-drillTime: 180
-liquidBoostIntensity: 15
+drillTime: 480
+liquidCapacity: 36
+liquidBoostIntensity: 4
 consumes: {
   liquid: {
     liquid: endurance-essence

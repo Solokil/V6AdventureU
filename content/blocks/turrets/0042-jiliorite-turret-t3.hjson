@@ -50,7 +50,7 @@ ammoTypes: {
   }
 }
 requirements: [
-  endurance-essence/100
+  concentrated-resistence/100
   jiliorite/230
   copper/200
   wood/130

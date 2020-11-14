@@ -1,0 +1,66 @@
+type: ItemTurret
+name: Lominhao
+description: Armored turret with medium, a defense that can be placed in front lines against waves.
+health: 2875
+size: 3
+hasItems: true
+hasLiquids: true
+liquidCapacity: 36
+buildCostMultiplier: 0.5
+reloadTime: 30
+range: 240 // 30 blocos
+maxAmmo: 40
+inaccuracy: 2
+coolantMultiplier: 60
+//ammoUseEffect: shellEjectSmall
+rotatespeed: 8
+targetAir: true
+ammoTypes: {
+  concentrated-resistence: {
+  type: MissileBulletType
+  
+  homingPower: 0.05
+  homingRange: 60
+  
+  speed: 3
+  lifetime: 200
+  damage: 600
+  width: 12
+  height: 22
+  frontColor: c4ffc4
+  backColor: 00f500
+  ammoMultiplier: 10
+  
+  splashDamageRadious: 35
+  splashDamage: 150
+  }
+  wood: {
+  
+  speed: 4.3
+  lifetime: 140
+  damage: 1000
+  width: 10
+  height: 25
+  frontColor: c4ffc4
+  backColor: 00f500
+  ammoMultiplier: 3
+  
+  splashDamageRadious: 35
+  splashDamage: 180
+  }
+}
+requirements: [
+  endurance-essence/100
+  jiliorite/230
+  copper/200
+  wood/130
+]
+category: turret
+research: 0041jiliorite-turret-t2
+consumes: {
+liquid: {
+liquid: endurance-essence
+amount: 0.1
+optional: true
+booster: true
+}}

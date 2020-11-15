@@ -103,7 +103,7 @@ requirements: [
   titanium/45
 ]
 category: turret
-research: glass-fragment
+research: 0002-sniper-ironite-turret
 consumes: {
 liquid: {
 liquid: water

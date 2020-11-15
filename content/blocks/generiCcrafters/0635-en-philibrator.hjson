@@ -28,9 +28,9 @@ consumes: {
     }*/
 }
 requirements: [
-  molded-glass/75
-  ironite/100
-  jiliorite/70
+  ironite/180
+  wood/160
+  cocentrated-fury/115
 ]
 category: crafting
 research: 0405-greenhouse

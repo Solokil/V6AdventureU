@@ -1,6 +1,6 @@
 type: GenericSmelter
 name: "En-Philibrator"
-description: "can produce philibrium by freezing liquids down subzero temperature, this process spend a lot of energy and takes time"
+description: "can produce philibrium by freezing concentrated fury down subzero temperature, this process spend a lot of energy and takes time"
 liquidCapacity: 180
 outputItem: {
   item: philibrium
@@ -15,17 +15,12 @@ craftTime: 600
 updateEffect: greenLaserChargeSmall
 consumes: {
   power: 5
-  liquids: {
-        liquids: [
-             enrage-essense/0.2
-             cryofluid/0.1
-        ]
-  }
-  /*items: {
+  liquid: cryofluid/0.1
+  items: {
         items: [
-        
+        concentrated-fury/5
         ]
-    }*/
+    }
 }
 requirements: [
   ironite/180

@@ -30,7 +30,7 @@ ammoTypes: {
   frontColor: c4ffc4
   backColor: 00f500
   
-  splashDamageRadious: 12
+  splashDamageRadius: 12
   splashDamage: 20
   homingPower: 0.077
   homingRange: 50
@@ -51,7 +51,7 @@ ammoTypes: {
   frontColor: c4ffc4
   backColor: 00f500
   
-  splashDamageRadious: 8
+  splashDamageRadius: 8
   splashDamage: 2
   homingPower: 0.075
   homingRange: 42

@@ -31,7 +31,7 @@ ammoTypes: {
   backColor: 00f500
   ammoMultiplier: 10
   
-  splashDamageRadious: 30
+  splashDamageRadius: 30
   splashDamage: 130
   }
   jiliorite: {
@@ -44,7 +44,7 @@ ammoTypes: {
   backColor: 00f500
   ammoMultiplier: 12
   
-  splashDamageRadious: 23
+  splashDamageRadius: 23
   splashDamage: 21
   }
   copper: {

@@ -1,0 +1,12 @@
+name: Philibrium
+description: A subzero resource, with diferent properties.
+hardness: 8
+cost: 11
+color: 4258ff
+research: 0405-greenhouse
+requirements: [
+  wood/8
+  molded-glass/5
+  ironite/7
+  jiliorite/2
+]

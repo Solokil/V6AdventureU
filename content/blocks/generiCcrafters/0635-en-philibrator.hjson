@@ -1,0 +1,38 @@
+type: GenericSmelter
+name: "En-Philibrator"
+description: "can produce philibrium by freezing liquids down subzero temperature, this process spend a lot of energy and takes time"
+liquidCapacity: 180
+outputItem: {
+  item: philibrium
+  amount: 5
+}
+buildCostMultiplier: 2
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 600
+updateEffect: greenLaserChargeSmall
+consumes: {
+  power: 5
+  liquids: {
+        liquids: [
+             enrage-essense/0.2
+             cryofluid/0.1
+        ]
+  }
+  /*items: {
+        items: [
+        
+        ]
+    }*/
+}
+requirements: [
+  molded-glass/75
+  ironite/100
+  jiliorite/70
+]
+category: crafting
+research: 0405-greenhouse
+idleSound: respawning
+idleSoundVolume: 0.4

@@ -25,7 +25,7 @@ consumes: {
 requirements: [
   ironite/180
   wood/160
-  cocentrated-fury/115
+  concentrated-fury/115
 ]
 category: crafting
 research: philibrium

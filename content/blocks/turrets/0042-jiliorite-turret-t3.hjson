@@ -31,8 +31,8 @@ ammoTypes: {
   backColor: 00f500
   ammoMultiplier: 10
   
-  splashDamageRadious: 35
-  splashDamage: 150
+  splashDamageRadius: 39
+  splashDamage: 250
   }
   wood: {
   
@@ -45,7 +45,7 @@ ammoTypes: {
   backColor: 00f500
   ammoMultiplier: 3
   
-  splashDamageRadious: 35
+  splashDamageRadius: 35
   splashDamage: 180
   }
 }

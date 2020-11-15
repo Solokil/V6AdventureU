@@ -26,7 +26,7 @@ ammoTypes: {
   backColor: 00f500
   ammoMultiplier: 12
   
-  splashDamageRadious: 12
+  splashDamageRadius: 12
   splashDamage: 6
   }
   copper: {

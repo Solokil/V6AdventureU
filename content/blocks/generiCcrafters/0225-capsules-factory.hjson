@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: "Capsules Factory"
+description: "Crafts very resistent capsules that can store liquids"
+outputItem: {
+  item: empty-capsule
+  amount: 2
+}
+buildCostMultiplier: 0.5
+size: 1
+hasPower: false
+hasLiquids: false
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+        items: [
+            jilior-plate/2
+            iron-plate/3
+        ]
+    }
+}
+requirements: [
+  jiliorite/450
+  lead/550
+]
+category: crafting
+research: empty-capsule
+idleSound: respawning
+idleSoundVolume: 0.5

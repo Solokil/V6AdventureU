@@ -187,7 +187,7 @@ collides: true
     fragBullets: 1 //001
     fragBullet: {
         type: LiquidBulletType
-        liquid: enraged-essence
+        liquid: enrage-essence
         damage: 1
         lifetime: 20
         speed: 3

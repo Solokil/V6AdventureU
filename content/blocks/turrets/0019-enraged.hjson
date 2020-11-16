@@ -1,0 +1,272 @@
+type: ItemTurret
+name: Enraged F.W.I.G.W.
+description: Enraged (Fire Works In Glass Weapon) as it says, fires glass tha makes a fireworks show, good damage damage but low in fire rate... Has a lot of bullets!
+health: 2650
+size: 3
+reloadTime: 300
+range: 400
+maxAmmo: 8
+ammoPerShot: 4
+//ammoUseEffect: shellEjectSmall
+inaccuracy: 10
+buildCostMultiplier: 0.1
+rotatespeed: 19
+ammoTypes: {
+
+	molded-glass:{
+  type: MissileBulletType
+  lifetime: 140
+  speed: 3
+  damage: 1
+  splashDamageRadius: 35
+  splashDamage: 20
+  frontColor: ffffff
+  backColor: ffffff
+  homingPower: 0.4
+  homingRange: 300
+  fragBullets: 5
+  ammoMultiplier: 1
+  fragBullet: {
+    type: BasicBulletType
+lifetime: 26
+//Moove Area
+speed: 1
+damage: 1
+hitSize: 8
+drawSize: 12
+drag: 0
+pierce: false
+hitEffect: shootSmall
+despawnEffect: shootSmall
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+// hitSound: null
+// inaccuracy: 0.5 //in degrees to change the original one
+ammoMultiplier: 1
+reloadMultiplier: 1
+recoil: 0
+knockback: 0.01
+hitTiles: true
+status: none
+statusDuration: 10
+collidesTiles: true
+collidesTeam: false
+collidesAir: true
+collides: true
+    keepVelocity: true
+    fragVelocityMin: 0.1
+    fragVelocityMax: 0.5
+    fragBullets: 2 //001
+    fragBullet: {
+        
+    type: BasicBulletType
+lifetime: 27
+//Moove Area
+speed: 1
+damage: 1
+hitSize: 8
+drawSize: 12
+drag: 0
+pierce: false
+hitEffect: shootSmall
+despawnEffect: shootSmall
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+// hitSound: null
+inaccuracy: 0.5 //in degrees
+ammoMultiplier: 1
+reloadMultiplier: 1
+recoil: 0
+knockback: 0.01
+hitTiles: true
+status: none
+statusDuration: 10
+collidesTiles: true
+collidesTeam: false
+collidesAir: true
+collides: true
+    keepVelocity: true
+    fragVelocityMin: 0.1
+    fragVelocityMax: 0.5
+    fragBullets: 3 //001
+    fragBullet: {
+        
+    type: BasicBulletType
+lifetime: 30
+//Moove Area
+speed: 1
+damage: 1
+hitSize: 8
+drawSize: 12
+drag: 0
+pierce: false
+hitEffect: shootSmall
+despawnEffect: shootSmall
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+// hitSound: null
+inaccuracy: 0.5 //in degrees
+ammoMultiplier: 1
+reloadMultiplier: 1
+recoil: 0
+knockback: 0.01
+hitTiles: true
+status: none
+statusDuration: 10
+collidesTiles: true
+collidesTeam: false
+collidesAir: true
+collides: true
+    keepVelocity: true
+    fragVelocityMin: 0.1
+    fragVelocityMax: 0.5
+    fragBullets: 2 //001
+    fragBullet: {
+        
+    type: BasicBulletType
+lifetime: 30
+//Moove Area
+speed: 1.5
+damage: 1
+hitSize: 8
+drawSize: 12
+drag: 0
+pierce:false
+hitEffect: shootSmall
+despawnEffect: shootSmall
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+// hitSound: null
+inaccuracy: 0.5 //in degrees
+ammoMultiplier: 1
+reloadMultiplier: 1
+recoil: 0
+knockback: 0.01
+hitTiles: true
+status: none
+statusDuration: 10
+collidesTiles: true
+collidesTeam: false
+collidesAir: true
+collides: true
+    keepVelocity: true
+    fragVelocityMin: 0.1
+    fragVelocityMax: 0.5
+    fragBullets: 2 //001
+    fragBullet: {
+        
+    type: BasicBulletType
+lifetime: 32
+//Moove Area
+speed: 1.4
+damage: 1
+hitSize: 8
+drawSize: 12
+drag: 0
+pierce: false
+hitEffect: shootSmall
+despawnEffect: shootSmall
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+// hitSound: null
+inaccuracy: 0.5 //in degrees
+ammoMultiplier: 1
+reloadMultiplier: 1
+recoil: 0
+knockback: 0.01
+hitTiles: true
+status: none
+statusDuration: 10
+collidesTiles: true
+collidesTeam: false
+collidesAir: true
+collides: true
+    keepVelocity: true
+    /* fragVelocityMin: 0.1
+    fragVelocityMax: 0.5
+    fragBullets: 1 //001
+    fragBullet: {
+        type: LiquidBulletType
+        liquid: water
+        damage: 3
+        lifetime: 75
+        speed: 3
+        pierce: true
+        keepVelocity: false
+        }  /**/
+splashDamage: 1.4
+splashDamageRadius: 6
+incendAmount: 0
+incendSpread: 12
+incendChance: 15
+bulletWidth: 10
+bulletHeight: 10
+bulletShrink: 0 //Used to squishify the bullet as it gets closer to the target, where 0 is no shrink -0.5 is stretching and 0.5 is shrinking.
+frontColor: ffffff // Color of front sprite.
+backColor: ffffff // Color of back sprite.
+// bulletSprite:
+
+        }
+splashDamage: 1.4
+splashDamageRadius: 5
+incendAmount: 0
+incendSpread: 12
+incendChance: 15
+bulletWidth: 10
+bulletHeight: 10
+bulletShrink: 0 //Used to squishify the bullet as it gets closer to the target, where 0 is no shrink -0.5 is stretching and 0.5 is shrinking.
+frontColor: ffffff // Color of front sprite.
+backColor: ffffff // Color of back sprite.
+// bulletSprite:
+
+        }
+splashDamage: 1.4
+splashDamageRadius: 5
+incendAmount: 0
+incendSpread: 12
+incendChance: 15
+bulletWidth: 10
+bulletHeight: 10
+bulletShrink: 0 //Used to squishify the bullet as it gets closer to the target, where 0 is no shrink -0.5 is stretching and 0.5 is shrinking.
+frontColor: ffffff // Color of front sprite.
+backColor: ffffff // Color of back sprite.
+// bulletSprite:
+
+        }
+splashDamage: 1.4
+splashDamageRadius: 5
+incendAmount: 0
+incendSpread: 12
+incendChance: 15
+bulletWidth: 10
+bulletHeight: 10
+bulletShrink: 0 //Used to squishify the bullet as it gets closer to the target, where 0 is no shrink -0.5 is stretching and 0.5 is shrinking.
+frontColor: ffffff // Color of front sprite.
+backColor: ffffff // Color of back sprite.
+// bulletSprite:
+
+        }
+splashDamage: 1.4
+splashDamageRadius: 5
+incendAmount: 0
+incendSpread: 12
+incendChance: 15
+bulletWidth: 10
+bulletHeight: 10
+bulletShrink: 0 //Used to squishify the bullet as it gets closer to the target, where 0 is no shrink -0.5 is stretching and 0.5 is shrinking.
+frontColor: ffffff // Color of front sprite.
+backColor: ffffff // Color of back sprite.
+// bulletSprite:
+
+    }
+  }
+}
+requirements: [
+  ironite/100
+  molded-glass/70
+  copper/60
+  lead/50
+  titanium/40
+]
+category: turret
+research: 0018-molded-turret

@@ -4,7 +4,7 @@ temperature: 0.9
 viscosity: 0.8
 effect: freezing
 color: 212166
-research: 0014-glass-refinery
+research: 0635-en-philibrator
 requirements:
 [
    philibrium/25

@@ -1,0 +1,10 @@
+type: material // ----- do not exists in V6
+name: Iron plate
+description: Plated iron, maded by plating ironite.
+hardness: 4
+cost: 6
+color: bfbfbf
+research: 0001-ironite-compress
+requirements: [
+ironite/30
+]

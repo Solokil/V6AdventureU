@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: "Jilior plater"
+description: "plates jiliorite making jilior plates"
+outputItem: {
+  item: jilior-plate
+  amount: 1
+}
+buildCostMultiplier: 0.5
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 20
+updateEffect: smeltsmoke
+consumes: {
+  item: jiliorite/4
+  power: 1
+}
+requirements: [
+  jiliorite/450
+  lead/550
+]
+category: crafting
+research: jilior-plate
+idleSound: respawning
+idleSoundVolume: 0.5

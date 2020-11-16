@@ -1,0 +1,34 @@
+type: GenericSmelter
+name: "Speed Melter"
+liquidCapacity: 180
+description: "Melts philibrium and others resources to speed essence and encapsules it for transportation. As philibrium is very cold, it doesn't need energy to melts but needs to be encapsuled to not evaporate"
+outputItem: {
+  item: encapsuled-speed
+  amount: 1
+}
+buildCostMultiplier: 0.3
+size: 2
+hasPower: false
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  liquid: water/1
+  items: {
+        items: [
+            empty-capsule/1
+            philibrium/3
+            phase-fabric/2
+        ]
+    }
+}
+requirements: [
+  philibrium/130
+  plastanium/50
+  iron-plate/120
+]
+category: crafting
+research: encapsuled-speed
+idleSound: respawning
+idleSoundVolume: 0.5

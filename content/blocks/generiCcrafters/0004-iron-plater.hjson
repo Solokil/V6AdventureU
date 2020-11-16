@@ -21,6 +21,6 @@ requirements: [
   copper/400
 ]
 category: crafting
-research: 0001-ironite-compress
+research: iron-plate
 idleSound: respawning
 idleSoundVolume: 0.5

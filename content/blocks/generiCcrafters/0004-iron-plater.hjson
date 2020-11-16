@@ -13,7 +13,11 @@ hasItems: true
 craftTime: 15
 updateEffect: smeltsmoke
 consumes: {
-  item: ironite/3
+  items: {
+        items: [
+            ironite/3
+        ]
+    }
   power: 5
 }
 requirements: [

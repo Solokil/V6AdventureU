@@ -1,0 +1,12 @@
+type: material
+name: Encapsuled Speed
+description: A capsule with a unstable liquid that is vey cold and can´t be caried in tubes
+hardness: 3
+cost: 3
+color: 2f2f91
+
+research: speed-essence
+requirements: [
+empty-capsule/21
+philibrium/11
+]

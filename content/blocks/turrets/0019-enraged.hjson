@@ -13,13 +13,13 @@ buildCostMultiplier: 0.1
 rotatespeed: 19
 ammoTypes: {
 
-	molded-glass:{
+	concentrated-fury:{
   type: MissileBulletType
   lifetime: 140
   speed: 3
-  damage: 1
-  splashDamageRadius: 35
-  splashDamage: 20
+  damage: 30
+  splashDamageRadius: 40
+  splashDamage: 35
   frontColor: ffffff
   backColor: ffffff
   homingPower: 0.4
@@ -182,91 +182,91 @@ collidesTeam: false
 collidesAir: true
 collides: true
     keepVelocity: true
-    /* fragVelocityMin: 0.1
+    fragVelocityMin: 0.1
     fragVelocityMax: 0.5
     fragBullets: 1 //001
     fragBullet: {
         type: LiquidBulletType
-        liquid: water
-        damage: 3
-        lifetime: 75
+        liquid: enraged-essence
+        damage: 1
+        lifetime: 20
         speed: 3
         pierce: true
         keepVelocity: false
-        }  /**/
-splashDamage: 1.4
-splashDamageRadius: 6
+        }  
+splashDamage: 4
+splashDamageRadius: 18
 incendAmount: 0
 incendSpread: 12
 incendChance: 15
-bulletWidth: 10
-bulletHeight: 10
+width: 10
+height: 10
 bulletShrink: 0 //Used to squishify the bullet as it gets closer to the target, where 0 is no shrink -0.5 is stretching and 0.5 is shrinking.
-frontColor: ffffff // Color of front sprite.
-backColor: ffffff // Color of back sprite.
+frontColor: ff0000 // Color of front sprite.
+backColor: c20000 // Color of back sprite.
 // bulletSprite:
 
         }
-splashDamage: 1.4
-splashDamageRadius: 5
+splashDamage: 5
+splashDamageRadius: 15
 incendAmount: 0
 incendSpread: 12
 incendChance: 15
 bulletWidth: 10
 bulletHeight: 10
 bulletShrink: 0 //Used to squishify the bullet as it gets closer to the target, where 0 is no shrink -0.5 is stretching and 0.5 is shrinking.
-frontColor: ffffff // Color of front sprite.
-backColor: ffffff // Color of back sprite.
+frontColor: ff0000 // Color of front sprite.
+backColor: c20000 // Color of back sprite.
 // bulletSprite:
 
         }
-splashDamage: 1.4
-splashDamageRadius: 5
+splashDamage: 6
+splashDamageRadius: 12
 incendAmount: 0
 incendSpread: 12
 incendChance: 15
 bulletWidth: 10
 bulletHeight: 10
 bulletShrink: 0 //Used to squishify the bullet as it gets closer to the target, where 0 is no shrink -0.5 is stretching and 0.5 is shrinking.
-frontColor: ffffff // Color of front sprite.
-backColor: ffffff // Color of back sprite.
+frontColor: ff0000 // Color of front sprite.
+backColor: c20000 // Color of back sprite.
 // bulletSprite:
 
         }
-splashDamage: 1.4
-splashDamageRadius: 5
+splashDamage: 7
+splashDamageRadius: 10
 incendAmount: 0
 incendSpread: 12
 incendChance: 15
 bulletWidth: 10
 bulletHeight: 10
 bulletShrink: 0 //Used to squishify the bullet as it gets closer to the target, where 0 is no shrink -0.5 is stretching and 0.5 is shrinking.
-frontColor: ffffff // Color of front sprite.
-backColor: ffffff // Color of back sprite.
+frontColor: ff0000 // Color of front sprite.
+backColor: c20000 // Color of back sprite.
 // bulletSprite:
 
         }
-splashDamage: 1.4
-splashDamageRadius: 5
-incendAmount: 0
+splashDamage: 8
+splashDamageRadius: 9
+incendAmount: 1
 incendSpread: 12
 incendChance: 15
-bulletWidth: 10
-bulletHeight: 10
+width: 10
+height: 13
 bulletShrink: 0 //Used to squishify the bullet as it gets closer to the target, where 0 is no shrink -0.5 is stretching and 0.5 is shrinking.
-frontColor: ffffff // Color of front sprite.
-backColor: ffffff // Color of back sprite.
+frontColor: ff0000 // Color of front sprite.
+backColor: c20000 // Color of back sprite.
 // bulletSprite:
 
     }
   }
 }
 requirements: [
-  ironite/100
-  molded-glass/70
-  copper/60
-  lead/50
-  titanium/40
+  concentrated-fury/115
+  copper/250
+  lead/135
+  thorium/70
+  molded-glass/20
 ]
 category: turret
-research: 0018-molded-turret
+research: 0018-molded-glass-ironite-turret

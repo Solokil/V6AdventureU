@@ -1,0 +1,12 @@
+type: material
+name: Empty Capsule
+description: A very resistent capsule
+hardness: 2
+cost: 2
+color: afd671
+
+research: 0004-iron-plater
+requirements: [
+iron-plate/3
+jilior-plate/2
+]

@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: "iron plater"
+description: "plates ironite making iron plates"
+outputItem: {
+  item: iron-plate
+  amount: 1
+}
+buildCostMultiplier: 0.5
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 45
+updateEffect: smeltsmoke
+consumes: {
+  item: ironite
+  power: 5
+}
+requirements: [
+  ironite/350
+  copper/400
+]
+category: crafting
+research: 0001-ironite-compress
+idleSound: respawning
+idleSoundVolume: 0.5

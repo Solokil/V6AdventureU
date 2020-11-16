@@ -1,6 +1,6 @@
 type: ItemTurret
-name: Striker I
-description: A turret great against swarm of units! (bullets have low damage but a lot life time!)
+name: G.R.O.F.
+description: GROF - (Green Ring of fire) - A turret great against swarm of units! (bullets have low damage but a lot life time!)
 health: 1540
 size: 2
 hasItems: true

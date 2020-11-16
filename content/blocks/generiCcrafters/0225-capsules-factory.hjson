@@ -3,7 +3,7 @@ name: "Capsules Factory"
 description: "Crafts very resistent capsules that can store liquids"
 outputItem: {
   item: empty-capsule
-  amount: 2
+  amount: 4
 }
 buildCostMultiplier: 0.5
 size: 1

@@ -1,5 +1,5 @@
 type: GenericCrafter
-name: "iron plater"
+name: "Iron plater"
 description: "plates ironite making iron plates"
 outputItem: {
   item: iron-plate

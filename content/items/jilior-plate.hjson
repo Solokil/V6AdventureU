@@ -1,0 +1,10 @@
+type: material // ----- do not exists in V6
+name: Jilior plate
+description: Plated jilior, maded by plating jiliorite.
+hardness: 4
+cost: 5
+color: 1cba00
+research: 0001-ironite-compress
+requirements: [
+jiliorite/45
+]

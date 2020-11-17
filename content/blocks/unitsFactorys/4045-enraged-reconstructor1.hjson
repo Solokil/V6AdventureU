@@ -37,6 +37,9 @@ upgrades: [
   [
     001045-fly-iri-f2, 021045-enraged-fly-iri-f2
   ]
+  [
+    001055-fly-iri-f3, 021055-enraged-fly-iri-f3
+  ]
 ]
 category: units
 research: 0005-ironite-factory

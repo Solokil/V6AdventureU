@@ -1,0 +1,88 @@
+type: UnitEntity
+name: Enraged Wingenu
+health: 9576
+speed: 3.162
+hitsize: 21
+drag: 0.08
+flying: true
+engineOffset: 5.7
+range: 355
+weapons: [
+{
+  x: 3
+  y: 4
+  reload: 24
+  alternate: true
+  rotate: true
+   bullet: {
+    lifetime: 60
+    speed: 5.5
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    damage: 156
+    width: 16.9
+    height: 27.3
+    frontColor: 293fe3
+    backColor: 151542
+  }
+}
+{
+  x: 0
+  y: 0
+  shootY: 22
+  mirror: false
+  
+  rotate: true
+  
+  reload: 100
+  recoil: 0
+  shootSound: laser
+  continuous: true
+  cooldownTime: 80
+
+   bullet: {
+    type: ContinuousLaserBulletType
+            damage: 13
+            length: 16.5
+            hitEffect: hitMeltHeal
+            drawSize: 420
+            lifetime: 90
+            shake: 1
+            despawnEffect: smokeCloud
+            smokeEffect: none
+
+            shootEffect: greenLaserChargeSmall
+
+            incendChance: 0.25
+            incendSpread: 7
+            incendAmount: 1
+            
+            frontColor: 293fe3
+            backColor: 151542
+  }
+}
+{ //start of tank weapon
+  name: support-tank1
+  x: -11
+  y: -5
+  reload: 90
+  alternate: true
+  rotate: true
+   bullet: {
+    lifetime: 23
+    speed: 0.5
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    damage: 200
+    width: 26
+    height: 42
+    frontColor: 13f23c
+    backColor: 0c5200
+  }
+} //end of tank weapon
+]
+  research: 001055-fly-iri-f3
+/*requirements: [
+    concentrated-fury/12
+    ironite/15
+  ]*/

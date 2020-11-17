@@ -69,11 +69,11 @@ weapons: [
   alternate: true
   rotate: true
    bullet: {
-    lifetime: 23
+    lifetime: 46
     speed: 0.5
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    damage: 200
+    damage: 400
     width: 26
     height: 42
     frontColor: 13f23c

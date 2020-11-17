@@ -4,7 +4,7 @@ description: Plated jilior, maded by plating jiliorite.
 hardness: 4
 cost: 5
 color: 1cba00
-research: 0001-ironite-compress
+research: 0105-jiliorite-crafter
 requirements: [
 jiliorite/45
 ]

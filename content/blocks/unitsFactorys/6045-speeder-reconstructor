@@ -1,0 +1,51 @@
+type: Reconstructor
+name: Speeder Reconstructor F:1,6
+description: "can makes fase 1, 2, 3, 4, 5 and 6 (normal, enraged or tanker) adventure unit becames speeder"
+// multiply the total unit value by/those:
+// life * 1.5
+// speed * 7 (only if tanker) other way: speed * 1.5
+// range * 2.5
+
+// reload * 1.5 (this makes the new weapon takes 2 times less to shoot)
+// damage * 1.2
+// rotate = true (if flying)
+// bullet speed * 2
+// bullet lifetime * 0.6
+/*
+    bulletWidth: *1.3
+    bulletHeight: *1.3
+    frontColor: 293fe3
+    backColor: 151542
+*/  
+size: 7
+health: 2875
+consumes: {
+  power: 6
+  items: {
+    items: [
+    concentrated-speed/15
+    ]
+  }
+}
+constructTime: 300
+requirements: [
+  concentrated-speed/150
+  iron-plate/700
+  jilior-plate/500
+]
+upgrades: [
+  [
+    000035-iri, 030035-iri-tanker
+  ]/*
+  [
+    001035-fly-iri, 031035-fly-iri-tanker
+  ]*/
+  [
+    020035-enraged-iri, 220035-enraged-iri-tanker
+  ]/*
+  [
+    021035-enraged-fly-iri, 221035-enraged-fly-iri-tanker
+  ]/**/
+]
+category: units
+research: 4045-enraged-reconstructor1

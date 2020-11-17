@@ -19,8 +19,8 @@ weapons: [
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     damage: 100
-    bulletWidth: 8
-    bulletHeight: 12
+    width: 8
+    height: 12
     // frontColor: ffffff // Color of front sprite.
     // backColor: ffffff // Color of back sprite.
   }}
@@ -39,8 +39,8 @@ weapons: [
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     damage: 400
-    bulletWidth: 16
-    bulletHeight: 24
+    width: 16
+    height: 24
     frontColor: 13f23c
     backColor: 0c5200
   }}

@@ -36,16 +36,7 @@ requirements: [
 upgrades: [
   [
     000035-iri, 030035-iri-tanker
-  ]/*
-  [
-    001035-fly-iri, 031035-fly-iri-tanker
-  ]*/
-  [
-    020035-enraged-iri, 220035-enraged-iri-tanker
-  ]/*
-  [
-    021035-enraged-fly-iri, 221035-enraged-fly-iri-tanker
-  ]/**/
+  ]
 ]
 category: units
 research: 4045-enraged-reconstructor1

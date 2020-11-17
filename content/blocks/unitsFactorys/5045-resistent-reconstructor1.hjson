@@ -42,10 +42,10 @@ upgrades: [
   ]*/
   [
     020035-enraged-iri, 220035-enraged-iri-tanker
-  ]/*
+  ]
   [
-    021035-enraged-fly-iri, 221035-enraged-fly-iri-tanker
-  ]/**/
+    021055-enraged-fly-iri-f3, 221055-enraged-fly-iri-tanker-f3
+  ]
 ]
 category: units
 research: 4045-enraged-reconstructor1

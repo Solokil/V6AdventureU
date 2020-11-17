@@ -1,6 +1,6 @@
 type: UnitEntity
 name: Enraged Wingenu
-health: 4560
+health: 14592
 speed: 0.51
 hitsize: 19
 drag: 0.08
@@ -13,7 +13,7 @@ weapons: [
   y: 4
   reload: 30
   alternate: true
-  rotate: true
+  rotate: false
    bullet: {
     lifetime: 99
     speed: 2.75

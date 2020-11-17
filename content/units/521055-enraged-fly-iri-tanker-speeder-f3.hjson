@@ -81,7 +81,7 @@ weapons: [
   }
 } //end of tank weapon
 ]
-  research: 001055-fly-iri-f3
+  research: 021055-enraged-fly-iri-f3
 /*requirements: [
     concentrated-fury/12
     ironite/15

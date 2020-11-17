@@ -2,7 +2,7 @@ type: Reconstructor
 name: Speeder Reconstructor F:1,6
 description: "can makes fase 1, 2, 3, 4, 5 and 6 (normal, enraged or tanker) adventure unit becames speeder"
 // multiply the total unit value by/those:
-// life * 1.5
+// life * 2.1
 // speed * 7 (only if tanker) other way: speed * 1.5
 // range * 2.5
 

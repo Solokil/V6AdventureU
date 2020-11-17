@@ -8,10 +8,10 @@ description: "can makes fase 1, 2, 3 and 4 (normal or enraged) adventure unit be
 
 // create new weapon with atributes from original unit not consider enraged:
 // reload * 0.5 (this makes the new weapon takes 2 times less to shoot)
-// damage * 2
+// damage * 4
 // rotate = true
 // bullet speed * 0.2
-// bullet lifetime * 0.25
+// bullet lifetime * 0.5
 /*
     bulletWidth: *2
     bulletHeight: *2

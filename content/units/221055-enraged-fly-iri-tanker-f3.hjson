@@ -1,6 +1,6 @@
 type: UnitEntity
 name: Enraged Wingenu
-health: 14592
+health: 4560
 speed: 0.51
 hitsize: 19
 drag: 0.08

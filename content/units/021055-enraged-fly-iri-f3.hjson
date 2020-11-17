@@ -1,0 +1,67 @@
+type: UnitEntity
+name: Enraged Wingenu
+health: 1200
+speed: 2.34
+hitsize: 19
+drag: 0.08
+flying: true
+engineOffset: 5.7
+range: 176
+weapons: [
+{
+  x: 3
+  y: 4
+  reload: 30
+  alternate: true
+  rotate: true
+   bullet: {
+    lifetime: 99
+    speed: 2.75
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    damage: 130
+    width: 13
+    height: 21
+    frontColor: ff8282 // Color of front sprite.
+    backColor: ff2424 // Color of back sprite.
+  }
+}
+{
+  x: 0
+  y: 0
+  shootY: 22
+  mirror: false
+  
+  rotate: true
+  
+  reload: 100
+  recoil: 0
+  shootSound: laser
+  continuous: true
+  cooldownTime: 80
+
+   bullet: {
+    type: ContinuousLaserBulletType
+            damage: 13
+            length: 16.5
+            hitEffect: hitMeltHeal
+            drawSize: 420
+            lifetime: 90
+            shake: 1
+            despawnEffect: smokeCloud
+            smokeEffect: none
+
+            shootEffect: greenLaserChargeSmall
+
+            incendChance: 0.15
+            incendSpread: 5
+            incendAmount: 1
+
+  }
+}
+]
+  research: 001055-fly-iri-f3
+/*requirements: [
+    concentrated-fury/12
+    ironite/15
+  ]*/

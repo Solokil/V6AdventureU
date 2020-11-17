@@ -34,11 +34,11 @@ weapons: [
   alternate: true
   //ejectEffect: shellEjectSmall
   bullet: {
-    lifetime: 16
+    lifetime: 32
     speed: 1
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    damage: 200
+    damage: 400
     bulletWidth: 16
     bulletHeight: 24
     frontColor: 13f23c

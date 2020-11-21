@@ -25,6 +25,6 @@ requirements: [
   lead/550
 ]
 category: crafting
-research: jilior-plate
+research: 0105-jiliorite-crafter
 idleSound: respawning
 idleSoundVolume: 0.5

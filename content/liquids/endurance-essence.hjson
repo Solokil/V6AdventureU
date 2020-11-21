@@ -5,7 +5,7 @@ temperature: 0.9
 viscosity: 0.8
 effect: melting
 color: 27d948
-research: 0105-jiliorite-crafter
+research: jiliorite
 requirements:
 [
    ironite/20

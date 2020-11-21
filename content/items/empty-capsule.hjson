@@ -5,7 +5,7 @@ hardness: 2
 cost: 2
 color: afd671
 
-research: 0004-iron-plater
+research: iron-plate
 requirements: [
 iron-plate/3
 jilior-plate/2

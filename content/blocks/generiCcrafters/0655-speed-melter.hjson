@@ -29,6 +29,6 @@ requirements: [
   iron-plate/120
 ]
 category: crafting
-research: encapsuled-speed
+research: 0635-en-philibrator
 idleSound: respawning
 idleSoundVolume: 0.5

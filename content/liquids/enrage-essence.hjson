@@ -4,7 +4,7 @@ temperature: 0.9
 viscosity: 0.8
 effect: melting
 color: ff3636
-research: 0014-glass-refinery
+research: molded-glass
 requirements:
 [
    thorium/20

@@ -27,6 +27,6 @@ requirements: [
   molded-glass/35
 ]
 category: crafting
-research: concentrated-speed
+research: 0655-speed-melter
 idleSound: respawning
 idleSoundVolume: 0.5

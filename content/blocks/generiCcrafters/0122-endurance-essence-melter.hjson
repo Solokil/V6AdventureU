@@ -27,6 +27,5 @@ requirements: [
   jiliorite/140
 ]
 category: crafting
-research: endurance-essence
-idleSound: respawning
+research: 0105-jiliorite-crafter
 idleSoundVolume: 0.5

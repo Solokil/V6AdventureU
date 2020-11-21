@@ -27,6 +27,6 @@ requirements: [
   molded-glass/15
 ]
 category: crafting
-research: concentrated-resistence
+research: 0122-endurance-essence-melter
 idleSound: respawning
 idleSoundVolume: 0.5

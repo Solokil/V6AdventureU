@@ -26,6 +26,6 @@ requirements: [
   lead/18
 ]
 category: crafting
-research: jiliorite
+research: 0105-jiliorite-crafter
 idleSound: respawning
 idleSoundVolume: 0.5

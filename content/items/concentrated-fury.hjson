@@ -4,7 +4,7 @@ description: The result of concentrating enrage essence into a molded glass
 hardness: 4
 cost: 3
 color: ff0000
-research: molded-glass
+research: enrage-essence
 requirements: [
 lead/1
 copper/1

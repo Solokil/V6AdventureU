@@ -62,7 +62,7 @@ requirements: [
   lead/40
 ]
 category: turret
-research: ironite
+research: 0001-ironite-compress
 consumes: {
 liquid: {
 liquid: water

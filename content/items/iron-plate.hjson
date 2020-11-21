@@ -4,7 +4,7 @@ description: Plated iron, maded by plating ironite.
 hardness: 4
 cost: 5
 color: bfbfbf
-research: 0001-ironite-compress
+research: ironite
 requirements: [
 ironite/30
 ]

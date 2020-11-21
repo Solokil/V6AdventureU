@@ -5,7 +5,7 @@ hardness: 4
 cost: 4
 color: 6eb4e6
 
-research: 0011-glass-breacker
+research: glass-fragment
 requirements: [
 metaglass/10
 ironite/10

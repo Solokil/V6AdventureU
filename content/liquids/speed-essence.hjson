@@ -4,7 +4,7 @@ temperature: 0.3
 viscosity: 0.8
 effect: freezing
 color: 212166
-research: 0635-en-philibrator
+research: philibrium
 requirements:
 [
    philibrium/25

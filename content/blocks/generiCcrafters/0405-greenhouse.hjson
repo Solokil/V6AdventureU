@@ -27,6 +27,6 @@ requirements: [
   jiliorite/70
 ]
 category: crafting
-research: wood
+research: 0014-glass-refinery
 idleSound: respawning
 idleSoundVolume: 0.4

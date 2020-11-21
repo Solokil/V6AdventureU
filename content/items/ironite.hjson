@@ -4,7 +4,7 @@ description: Easy to find and to use. This is the most simple corrupted mineral
 hardness: 2
 cost: 1
 color: d5dbe4
-research: core-shard
+research: 0001-ironite-compress
 requirements: [
 lead/1
 copper/1

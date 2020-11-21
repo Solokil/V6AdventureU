@@ -5,7 +5,7 @@ hardness: 2
 cost: 1
 color: 6eb4e6
 
-research: 0001-ironite-compress
+research: ironite
 requirements: [
 metaglass/2
 copper/1

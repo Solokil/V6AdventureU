@@ -25,6 +25,6 @@ requirements: [
   lead/550
 ]
 category: crafting
-research: empty-capsule
+research: 0004-iron-plater
 idleSound: respawning
 idleSoundVolume: 0.5

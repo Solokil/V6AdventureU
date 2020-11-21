@@ -28,6 +28,6 @@ requirements: [
   concentrated-fury/115
 ]
 category: crafting
-research: philibrium
+research: 0405-greenhouse
 idleSound: respawning
 idleSoundVolume: 0.4

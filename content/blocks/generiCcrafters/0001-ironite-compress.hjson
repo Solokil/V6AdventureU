@@ -22,7 +22,7 @@ requirements: [
   silicon/5
 ]
 category: crafting
-research: ironite
+research: core-shard
 idleSound: respawning
 idleSoundVolume: 0.5
 

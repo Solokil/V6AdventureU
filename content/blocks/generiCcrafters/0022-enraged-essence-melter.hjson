@@ -28,6 +28,6 @@ requirements: [
   ironite/200
 ]
 category: crafting
-research: enrage-essence
+research: 0014-glass-refinery
 idleSound: respawning
 idleSoundVolume: 0.5

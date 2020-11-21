@@ -27,6 +27,6 @@ requirements: [
   molded-glass/15
 ]
 category: crafting
-research: concentrated-fury
+research: 0022-enraged-essence-melter
 idleSound: respawning
 idleSoundVolume: 0.5

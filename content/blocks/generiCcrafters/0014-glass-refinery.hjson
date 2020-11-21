@@ -27,6 +27,6 @@ requirements: [
   metaglass/10
 ]
 category: crafting
-research: molded-glass
+research: 0011-glass-breacker
 idleSound: respawning
 idleSoundVolume: 0.5

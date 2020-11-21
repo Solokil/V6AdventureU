@@ -26,6 +26,6 @@ requirements: [
   lead/10
 ]
 category: crafting
-research: jiliorite
+research: 0001-ironite-compress
 idleSound: respawning
 idleSoundVolume: 0.5

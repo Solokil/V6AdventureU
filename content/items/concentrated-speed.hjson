@@ -5,7 +5,7 @@ hardness: 3
 cost: 4
 color: 293fe3
 
-research: 0655-speed-melter
+research: molded-glass
 requirements: [
 encapsuled-speed/21
 ]

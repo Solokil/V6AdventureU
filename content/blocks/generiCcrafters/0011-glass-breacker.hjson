@@ -23,6 +23,6 @@ requirements: [
   metaglass/30
 ]
 category: crafting
-research: glass-fragment
+research: 0001-ironite-compress
 idleSound: respawning
 idleSoundVolume: 0.5

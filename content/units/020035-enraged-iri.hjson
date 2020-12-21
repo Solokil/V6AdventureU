@@ -1,4 +1,4 @@
-type: MechUnit
+type: mech
 name: Enraged Lockeri
 speed: 1.3
 hitsize: 13

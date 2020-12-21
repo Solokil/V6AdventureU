@@ -1,4 +1,4 @@
-type: ChargeTurret
+type: PowerTurret
 name: Energy Iron Missile Louncher
 description: A missile Louncher that spends low energy, but have a big inaccuracy... It is good against swarms of units and in close range combat!
 health: 950

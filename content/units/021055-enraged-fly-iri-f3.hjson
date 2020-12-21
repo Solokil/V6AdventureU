@@ -1,4 +1,4 @@
-type: UnitEntity
+type: flying
 name: Enraged Wingenu
 health: 1200
 speed: 2.34

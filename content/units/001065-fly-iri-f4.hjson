@@ -1,5 +1,5 @@
 
-type: UnitEntity
+type: flying
 name: G.O.S.T.
 speed: 2.0
 hitsize: 23

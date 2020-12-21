@@ -1,4 +1,4 @@
-type: UnitEntity
+type: flying
 name: Suprim
 speed: 3.2
 hitsize: 19

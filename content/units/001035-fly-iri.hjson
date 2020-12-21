@@ -1,4 +1,4 @@
-type: UnitEntity
+type: flying
 name: Interprin
 speed: 2
 hitsize: 13

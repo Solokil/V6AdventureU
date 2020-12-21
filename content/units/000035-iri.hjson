@@ -1,4 +1,4 @@
-type: MechUnit
+type: mech
 name: Lockeri
 speed: 1
 hitsize: 13

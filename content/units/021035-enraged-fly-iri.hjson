@@ -1,4 +1,4 @@
-type: UnitEntity
+type: flying
 name: Enraged Interprin
 speed: 2.6
 hitsize: 13

@@ -1,4 +1,4 @@
-type: UnitEntity
+type: flying
 name: Enraged Suprim
 speed: 4.16
 hitsize: 19

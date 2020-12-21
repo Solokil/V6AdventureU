@@ -1,4 +1,4 @@
-type: UnitEntity
+type: flying
 name: Enraged Wingenu Tanker
 health: 4560
 speed: 0.51

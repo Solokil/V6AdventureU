@@ -1,4 +1,4 @@
-type: MechUnit
+type: mech
 name: Lockeri Tanker
 speed: 0.15
 hitsize: 13

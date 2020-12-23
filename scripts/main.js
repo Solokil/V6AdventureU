@@ -1,2 +1,1 @@
-require('planets');
-require('sectorpresets-testplanet');
+require('testplanet');

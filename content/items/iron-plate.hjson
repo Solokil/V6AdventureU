@@ -8,3 +8,6 @@ research: ironite
 requirements: [
 ironite/30
 ]
+explosiveness: 0.1
+flammability: 0.0 //above 0.3 can be used for item burners
+radioactivity: 0.05

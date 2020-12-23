@@ -8,3 +8,6 @@ research: jiliorite
 requirements: [
 jiliorite/45
 ]
+explosiveness: 0.1
+flammability: 0.3 //above 0.3 can be used for item burners
+radioactivity: 0.6

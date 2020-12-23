@@ -5,8 +5,8 @@ testplanet.meshLoader = () => new SunMesh(testplanet, 4, 5, 0.3, 1.7, 1.2, 1, 1.
 testplanet.accessible = true;
 testplanet.hasAtmosphere = true;
 testplanet.generator = new SerpuloPlanetGenerator();
-testplanet.bloom = true;
-testplanet.radius = 3;
+testplanet.bloom = false;
+testplanet.radius = 1;
 testplanet.accessible = true;
 testplanet.hasAtmosphere = true;
 testplanet.atmosphereColor = Color.valueOf("80ff00");

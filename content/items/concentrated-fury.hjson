@@ -12,6 +12,6 @@ research: {
    ]
 }
 
-explosiveness: 0
-flammability: 0 //above 0.3 can be used for item burners
-radioactivity: 0
+explosiveness: 0.4
+flammability: 0.8 //above 0.3 can be used for item burners
+radioactivity: 0.3

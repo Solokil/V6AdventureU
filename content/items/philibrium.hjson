@@ -10,3 +10,6 @@ requirements: [
   ironite/7
   jiliorite/2
 ]
+explosiveness: 0
+flammability: 0.0 //above 0.3 can be used for item burners
+radioactivity: 3

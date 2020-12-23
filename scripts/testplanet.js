@@ -33,4 +33,4 @@ zonetest1.alwaysUnlocked = false;
 );*/
 
 const zonetest1node = Vars.content.getByName(ContentType.sector, "V6AdventureU-zonetest1");
-node.newNode(zonetest1, groundZero, null, Seq.with(new Objectives.SectorComplete(SectorPresets.groundZero), new Objectives.Research(Blocks.0001-ironite-compress)));
+node.newNode(zonetest1, groundZero, null, Seq.with(new Objectives.SectorComplete(SectorPresets.groundZero), new Objectives.Research(Blocks.V6AdventureU-0001-ironite-compress)));

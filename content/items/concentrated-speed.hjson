@@ -5,7 +5,7 @@ hardness: 3
 cost: 4
 color: 293fe3
 
-research: molded-glass
+research: encapsuled-speed
 requirements: [
-encapsuled-speed/21
+   encapsuled-speed/21
 ]

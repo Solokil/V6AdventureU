@@ -10,3 +10,6 @@ requirements: [
 copper/25
 lead/10
 ]
+explosiveness: 0.0
+flammability: 0.2 //above 0.3 can be used for item burners
+radioactivity: 0.2

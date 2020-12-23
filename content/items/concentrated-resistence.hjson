@@ -10,3 +10,6 @@ molded-glass/3
 jiliorite/12
 ironite/10
 ]
+explosiveness: 0.1
+flammability: 0.2 //above 0.3 can be used for item burners
+radioactivity: 0.45

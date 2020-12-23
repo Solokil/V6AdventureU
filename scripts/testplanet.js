@@ -14,7 +14,6 @@ testplanet.hasAtmosphere = true;
 testplanet.generator = generator;
 testplanet.bloom = false;
 testplanet.radius = 0.4;
-testplanet.accessible = true;
 testplanet.hasAtmosphere = true;
 testplanet.atmosphereColor = Color.valueOf("80ff00");
 testplanet.atmosphereRadIn = 0.2;
@@ -25,7 +24,7 @@ const zonetest1 = new JavaAdapter(SectorPreset, {}, "zonetest1", Planets.testpla
 zonetest1.difficulty = 12;
 zonetest1.captureWave = 25;
 zonetest1.localizedName = "Flyn base";
-zonetest1.alwaysUnlocked = true;
+zonetest1.alwaysUnlocked = false;
 /*zonetest1.objectives = Seq.with(
   new Objectives.SectorComplete(SectorPresets.stainedMountains),
   new Objectives.Research(Vars.content.getByName(ContentType.block, "goldmod-goldCrucible")),

@@ -1,3 +1,4 @@
+const node = require ('nodeFunction');
 //Test planet 1
 
 const generator = extend(SerpuloPlanetGenerator, {});
@@ -31,3 +32,6 @@ zonetest1.alwaysUnlocked = true;
   new Objectives.Research(Vars.content.getByName(ContentType.block, "goldmod-goldForge")),
   new Objectives.Research(Blocks.laserDrill)
 );*/
+
+const zonetest1node = Vars.content.getByName(ContentType.sector, "V6AdventureU-zonetest1");
+newNode(zonetest1, groundZero, null, Seq.with(new Objectives.SectorComplete(SectorPresets.groundZero), new Objectives.Research(Blocks.0001-ironite-compress)));

@@ -1,0 +1,16 @@
+name: Flinty Test 1
+captureWave: 20
+difficulty: 12
+requirements: [
+  {
+    type: capture
+    zone: groundZero
+  }
+  {
+    type: Unlock
+    block: 0001-ironite-compress
+  }
+]
+research: groundZero
+planet: testplanet
+sector: 1

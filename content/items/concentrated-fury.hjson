@@ -4,8 +4,14 @@ description: The result of concentrating enrage essence into a molded glass
 hardness: 4
 cost: 3
 color: ff0000
-research: enrage-essence
-requirements: [
-lead/1
-copper/1
-]
+research: {
+   parent: enrage-essence
+   requirements: [
+      lead/1
+      copper/1
+   ]
+}
+
+explosiveness: 0
+flammability: 0 //above 0.3 can be used for item burners
+radioactivity: 0

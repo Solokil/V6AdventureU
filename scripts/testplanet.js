@@ -25,3 +25,9 @@ zonetest1.difficulty = 12;
 zonetest1.captureWave = 25;
 zonetest1.localizedName = "Flyn base";
 zonetest1.alwaysUnlocked = true;
+/*zonetest1.objectives = Seq.with(
+  new Objectives.SectorComplete(SectorPresets.stainedMountains),
+  new Objectives.Research(Vars.content.getByName(ContentType.block, "goldmod-goldCrucible")),
+  new Objectives.Research(Vars.content.getByName(ContentType.block, "goldmod-goldForge")),
+  new Objectives.Research(Blocks.laserDrill)
+);*/

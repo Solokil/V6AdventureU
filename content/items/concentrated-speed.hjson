@@ -5,10 +5,14 @@ hardness: 3
 cost: 4
 color: 293fe3
 
-research: encapsuled-speed
-requirements: [
-   encapsuled-speed/21
-]
+research: {
+   parent: encapsuled-speed
+   requirements: [
+      molded-glass/100
+      encapsuled-speed/100
+   ]
+}
+
 explosiveness: 04
 flammability: 0 //above 0.3 can be used for item burners
 radioactivity: 25

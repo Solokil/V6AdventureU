@@ -4,12 +4,13 @@ description: The result of concentrating endurance essence into a molded glass
 hardness: 4
 cost: 6
 color: 4fe36a
-research: endurance-essence
-requirements: [
-molded-glass/3
-jiliorite/12
-ironite/10
-]
+research: {
+   parent: endurance-essence
+   requirements: [
+      molded-glass/100
+      jiliorite/100
+   ]
+}
 explosiveness: 0.1
 flammability: 0.2 //above 0.3 can be used for item burners
 radioactivity: 0.45

@@ -4,10 +4,12 @@ description: Plated jilior, maded by plating jiliorite.
 hardness: 4
 cost: 5
 color: 1cba00
-research: jiliorite
-requirements: [
-jiliorite/45
-]
+research: {
+   parent: jiliorite
+   requirements: [
+      jiliorite/250
+   ]
+}
 explosiveness: 0.1
 flammability: 0.3 //above 0.3 can be used for item burners
 radioactivity: 0.6

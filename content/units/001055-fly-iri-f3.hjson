@@ -60,9 +60,9 @@ weapons: [
 }
 ]
 
-research: 
+research: {
     parent: 001045-fly-iri-f2
     requirements: [
         molded-glass/50
         ironite/190
-  ]
+  ]}

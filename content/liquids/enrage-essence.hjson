@@ -1,12 +1,13 @@
 name: Enrage Essence
 description: An essence that can make units and buildings became enraged.
 color: ff3636
-research: molded-glass
-requirements:
-[
-   thorium/20
-   titanium/15
-]
+research: {
+   parent: molded-glass
+   requirements: [
+      titanium/100
+      thorium/100
+   ]
+}
 flammability: 0.3
 temperature: 0.75
 viscosity: 0.7 //how thick this liquid is. 0.5=water (relatively viscous), 1 would be something like tar (very slow)

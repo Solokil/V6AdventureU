@@ -4,11 +4,13 @@ description: Easy to find and to use. This is the most simple corrupted mineral
 hardness: 2
 cost: 1
 color: d5dbe4
-research: 0001-ironite-compress
-requirements: [
-lead/1
-copper/1
-]
+research: {
+   parent: 0001-ironite-compress
+   requirements: [
+      lead/100
+      copper/100
+   ]
+}
 
 explosiveness: 0.0
 flammability: 0.0 //above 0.3 can be used for item burners

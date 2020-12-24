@@ -3,13 +3,13 @@ description: A subzero resource, with diferent properties.
 hardness: 8
 cost: 11
 color: 4258ff
-research: wood
-requirements: [
-  wood/8
-  molded-glass/5
-  ironite/7
-  jiliorite/2
-]
+research: {
+   parent: wood
+   requirements: [
+      wood/400
+      ironite-plate/400
+   ]
+}
 explosiveness: 0
 flammability: 0.0 //above 0.3 can be used for item burners
 radioactivity: 3

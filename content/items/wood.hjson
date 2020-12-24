@@ -4,12 +4,13 @@ description: wood produced in greenhouses.
 hardness: 2
 cost: 2
 color: d69e49
-research: molded-glass
-requirements: [
-  molded-glass/5
-  ironite/7
-  jiliorite/2
-]
+research: {
+   parent: molded-glass
+   requirements: [
+      molded-glass/209
+      ironite/1000
+   ]
+}
 explosiveness: 0.0
 flammability: 1 //above 0.3 can be used for item burners
 radioactivity: 0.0

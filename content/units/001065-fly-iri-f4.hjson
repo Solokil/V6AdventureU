@@ -26,9 +26,10 @@ weapons: [
 }
 ]
 
-research: 
+research: {
     parent: 001055-fly-iri-f3
     requirements: [
         wood/50
         ironite/190
   ]
+}

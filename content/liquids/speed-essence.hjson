@@ -1,8 +1,5 @@
 name: Speed Essence
 description: An essence that can make units and buildings became faster, this liquid is very unstable.
-temperature: 0.3
-viscosity: 0.8
-effect: freezing
 color: 212166
 research: philibrium
 requirements:

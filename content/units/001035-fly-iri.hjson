@@ -25,8 +25,9 @@ weapons: [{
   }
   //shootSound: shoot
 }]
-  research: 0005-ironite-factory
-/*requirements: [
-    lead/12
-    ironite/15
-  ]*/
+  research: 
+    parent: 0005-ironite-factory
+    requirements: [
+        lead/12
+        ironite/15
+  ]

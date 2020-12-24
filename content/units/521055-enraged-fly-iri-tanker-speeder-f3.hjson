@@ -1,6 +1,6 @@
 type: flying
 name: Enraged Wingenu Tanker Speeder
-health: 14592
+health: 29184
 speed: 3.162
 hitsize: 21
 drag: 0.08
@@ -81,8 +81,9 @@ weapons: [
   }
 } //end of tank weapon
 ]
-  research: 221055-enraged-fly-iri-tanker-f3
-/*requirements: [
-    concentrated-fury/12
-    ironite/15
-  ]*/
+ 
+research: {
+    parent: 221055-enraged-fly-iri-tanker-f3
+    requirements: [
+        concentrated-speed/05
+  ]}

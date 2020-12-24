@@ -1,12 +1,12 @@
 name: Speed Essence
 description: An essence that can make units and buildings became faster, this liquid is very unstable.
 color: 212166
-research: philibrium
-requirements:
-[
-   philibrium/25
-   empty-capsule/18
-]
+research: {
+   parent: philibrium
+   requirements: [
+      philibrium/200
+   ]
+}
 flammability: 0
 temperature: 0.1
 viscosity: 0.2 //how thick this liquid is. 0.5=water (relatively viscous), 1 would be something like tar (very slow)

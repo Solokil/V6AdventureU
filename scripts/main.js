@@ -1,2 +1,2 @@
 require('testplanet');
-require('nodeFunction');
+//require('nodeFunction');

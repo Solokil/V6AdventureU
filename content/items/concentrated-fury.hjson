@@ -7,7 +7,7 @@ color: ff0000
 research: {
    parent: enrage-essence
    requirements: [
-      lead/1
+      molded-glass/100
       copper/1
    ]
 }

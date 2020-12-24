@@ -5,11 +5,13 @@ hardness: 3
 cost: 3
 color: 2f2f91
 
-research: speed-essence
-requirements: [
-empty-capsule/21
-philibrium/11
-]
+research: {
+   parent: speed-essence
+   requirements: [
+      philibrium/100
+      empty-capsule/100
+   ]
+}
 
 explosiveness: 0.0
 flammability: 0.0 //above 0.3 can be used for item burners

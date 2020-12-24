@@ -25,8 +25,8 @@ weapons: [{
   }
   //shootSound: shoot
 }]
-  research: 
+  research: {
     parent: 001035-fly-iri
     requirements: [
         ironite/150
-  ]
+  ]}

@@ -49,4 +49,9 @@ weapons: [
   }
 }
 ]
-research: 0005-ironite-factory
+research: 
+    parent: 0005-ironite-factory
+    requirements: [
+        copper/20
+        ironite/20
+  ]

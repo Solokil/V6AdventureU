@@ -12,4 +12,4 @@ temperature: 0.1
 viscosity: 0.2 //how thick this liquid is. 0.5=water (relatively viscous), 1 would be something like tar (very slow)
 heatCapacity: 0.2 //how much heat this liquid can store. 0.4=water (decent), anything lower is probably less dense and bad at cooling.
 explosiveness: 0.0
-effect: freezing //default = none
+effect: freezing

@@ -28,9 +28,9 @@ weapons: [
 
   research: 000035-iri
   
-research: 
+research: {
     parent: 000035-iri
     requirements: [
         concentrated-fury/5
         ironite/12
-  ]
+  ]}

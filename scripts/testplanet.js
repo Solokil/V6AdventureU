@@ -1,4 +1,4 @@
-//const node = require ('nodeFunction');
+const node = require ('nodeFunction');
 //Test planet 1
 
 const generator = extend(SerpuloPlanetGenerator, {});
@@ -16,8 +16,8 @@ testplanet.bloom = false;
 testplanet.radius = 0.4;
 testplanet.hasAtmosphere = true;
 testplanet.atmosphereColor = Color.valueOf("80ff00");
-testplanet.atmosphereRadIn = 0.2;
-testplanet.atmosphereRadOut = 0.7;
+testplanet.atmosphereRadIn = 0.1;
+testplanet.atmosphereRadOut = 0.2;
 
 //Planet sector pressets
 const zonetest1 = new JavaAdapter(SectorPreset, {}, "zonetest1", Planets.testplanet, 1);
@@ -32,5 +32,5 @@ zonetest1.alwaysUnlocked = false;
   new Objectives.Research(Blocks.laserDrill)
 );*/
 
-//const zonetest1node = Vars.content.getByName(ContentType.sector, "V6AdventureU-zonetest1");
-//node.newNode(zonetest1node, groundZero, null, Seq.with(new Objectives.SectorComplete(SectorPresets.groundZero), new Objectives.Research(Blocks.V6AdventureU-0001-ironite-compress)));
+const zonetest1node = Vars.content.getByName(ContentType.sector, "V6AdventureU-zonetest1");
+node.newNode(zonetest1node, groundZero, null, Seq.with(new Objectives.SectorComplete(SectorPresets.groundZero), new Objectives.Research(Blocks.V6AdventureU-0001-ironite-compress)));

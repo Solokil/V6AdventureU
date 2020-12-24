@@ -4,10 +4,12 @@ description: Plated iron, maded by plating ironite.
 hardness: 4
 cost: 5
 color: bfbfbf
-research: ironite
-requirements: [
-ironite/30
-]
+research: {
+   parent: ironite
+   requirements: [
+      ironite/250
+   ]
+}
 explosiveness: 0.1
 flammability: 0.0 //above 0.3 can be used for item burners
 radioactivity: 0.05

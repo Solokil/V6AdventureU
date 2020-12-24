@@ -2,12 +2,12 @@
 name: Endurance Essence
 description: An essence that can make units and buildings became enraged.
 color: 27d948
-research: jiliorite
-requirements:
-[
-   ironite/20
-   jiliorite/15
-]
+research: {
+   parent: jiliorite
+   requirements: [
+      jiliorite/100
+   ]
+}
 flammability: 0
 temperature: 0.9
 viscosity: 0.8 //how thick this liquid is. 0.5=water (relatively viscous), 1 would be something like tar (very slow)

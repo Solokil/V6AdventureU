@@ -5,11 +5,13 @@ hardness: 4
 cost: 4
 color: 6eb4e6
 
-research: glass-fragment
-requirements: [
-metaglass/10
-ironite/10
-]
+research: {
+   parent: glass-fragment
+   requirements: [
+      ironite/150
+      glass-fragment/300
+   ]
+}
 explosiveness: 0.0
 flammability: 0.0 //above 0.3 can be used for item burners
 radioactivity: 0.0

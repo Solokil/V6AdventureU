@@ -7,7 +7,7 @@ research: {
    parent: wood
    requirements: [
       wood/400
-      ironite-plate/400
+      iron-plate/400
    ]
 }
 explosiveness: 0

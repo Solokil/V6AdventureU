@@ -24,12 +24,12 @@ zonetest1.difficulty = 12;
 zonetest1.captureWave = 25;
 zonetest1.localizedName = "Flyn base";
 zonetest1.alwaysUnlocked = true;
-zonetest1.objectives = Seq.with(
+/*zonetest1.objectives = Seq.with(
   new Objectives.SectorComplete(SectorPresets.groundZero),
   new Objectives.Research(Vars.content.getByName(ContentType.block, "V6AdventureU-0001-ironite-compress")),
   //new Objectives.Research(Vars.content.getByName(ContentType.block, "goldmod-goldForge")),
   //new Objectives.Research(Blocks.laserDrill)
-);
+);*/
 //const zone1 = Vars.content.getByName(ContentType.sector, "V6AdventureU-zonetest1");
 // newNode(zone1, groundZero, null, Seq.with(new Objectives.SectorComplete(SectorPresets.groundZero), new Objectives.Research(Blocks.launchPad)));
    

@@ -4,7 +4,7 @@ const generator = extend(SerpuloPlanetGenerator, {});
 generator.dec = ObjectMap.of(Blocks.grass, Blocks.dirt, Blocks.grass, Blocks.dirt, Blocks.water, Blocks.water, Blocks.darksandWater, Blocks.darksandWater);
 generator.tars = ObjectMap.of(Blocks.grass, Blocks.shale, Blocks.dirt, Blocks.shale);
 
-const testplanet = new Planet("templura", Planets.serpulo, 0.7, 0.5); //4, 0.7
+const testplanet = new Planet("testplanet", Planets.serpulo, 0.7, 0.5); //4, 0.7
 testplanet.localizedName = "First Moon base";
 testplanet.orbitRadius = 4.0;
 testplanet.meshLoader = () => new SunMesh(testplanet, 4, 3, 0.4, 1.8, 1.2, 0.5, 0.4, Color.valueOf("f5d300"), Color.valueOf("74737a"), Color.valueOf("00aSe3"));

@@ -54,7 +54,7 @@ function newNode(content, parentName, req, objectives){
   parent.children.add(node);
 }
 
-const testplanetmoon = new Planet("testplanetmoon", Planets.serpulo, 0.7, 0.5); //4, 0.7
+const testplanetmoon = new Planet("testplanetmoon", Planets.testplanet, 0.7, 0.5); //4, 0.7
 testplanet.localizedName = "moon test";
 testplanet.orbitRadius = 1.5;
 testplanet.meshLoader = () => new SunMesh(testplanet, 4, 3, 0.4, 1.8, 1.2, 0.5, 0.4, Color.valueOf("f5d300"), Color.valueOf("74737a"), Color.valueOf("00aSe3"));
@@ -68,7 +68,7 @@ testplanet.atmosphereColor = Color.valueOf("80ff00");
 testplanet.atmosphereRadIn = 0.1;
 testplanet.atmosphereRadOut = 0.2;
 
-const testplanetmoon2 = new Planet("testplanetmoon2", Planets.serpulo, 0.7, 0.5); //4, 0.7
+const testplanetmoon2 = new Planet("testplanetmoon2", Planets.testplanet, 0.7, 0.5); //4, 0.7
 testplanet.localizedName = "moon test 2";
 testplanet.orbitRadius = 1.3;
 testplanet.meshLoader = () => new SunMesh(testplanet, 4, 3, 0.4, 1.8, 1.2, 0.5, 0.4, Color.valueOf("f5d300"), Color.valueOf("74737a"), Color.valueOf("00aSe3"));

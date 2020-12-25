@@ -26,7 +26,6 @@ weapons: [{
   }
   //shootSound: shoot
 }]
-  research: 001045-fly-iri-f2
 research: {
     parent: 001045-fly-iri-f2
     requirements: [

@@ -26,8 +26,6 @@ weapons: [
   }}
 ] 
 
-  research: 000035-iri
-  
 research: {
     parent: 000035-iri
     requirements: [

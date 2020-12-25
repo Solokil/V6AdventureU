@@ -4,15 +4,15 @@ const generator = extend(SerpuloPlanetGenerator, {});
 generator.dec = ObjectMap.of(Blocks.grass, Blocks.dirt, Blocks.grass, Blocks.dirt, Blocks.water, Blocks.water, Blocks.darksandWater, Blocks.darksandWater);
 generator.tars = ObjectMap.of(Blocks.grass, Blocks.shale, Blocks.dirt, Blocks.shale);
 
-const testplanet = new JavaAdapter(Planet, {}, "tesplanet", Planets.serpulo, 2, 0.8); //4,0.7
+const testplanet = new JavaAdapter(Planet, {}, "tesplanet", Planets.serpulo, 1, 0.5); //4,0.7
 testplanet.localizedName = "First Moon base";
 testplanet.orbitRadius = 4.0;
-testplanet.meshLoader = () => new SunMesh(testplanet, 2, 3, 0.3, 1.8, 1.2, 0.5, 0.4, Color.valueOf("f5d300"), Color.valueOf("74737a"), Color.valueOf("00aSe3"));
+testplanet.meshLoader = () => new SunMesh(testplanet, 4, 5, 1, 1.8, 1.2, 0.5, 0.4, Color.valueOf("f5d300"), Color.valueOf("74737a"), Color.valueOf("00aSe3"));
 testplanet.accessible = true;
 testplanet.hasAtmosphere = true;
 testplanet.generator = generator;
 testplanet.bloom = false;
-testplanet.radius = 0.4;
+testplanet.radius = 1;
 testplanet.hasAtmosphere = true;
 testplanet.atmosphereColor = Color.valueOf("80ff00");
 testplanet.atmosphereRadIn = 0.1;

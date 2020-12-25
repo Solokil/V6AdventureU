@@ -27,7 +27,9 @@ weapons: [{
   //shootSound: shoot
 }]
   research: 001045-fly-iri-f2
-/*requirements: [
-    lead/12
-    ironite/15
-  ]*/
+research: {
+    parent: 001045-fly-iri-f2
+    requirements: [
+        concentrated-fury/5
+        ironite/12
+  ]}

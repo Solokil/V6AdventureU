@@ -31,9 +31,9 @@ zonetest1.objectives = Seq.with(
   //new Objectives.Research(Blocks.laserDrill)
 );
 const zone1 = Vars.content.getByName(ContentType.sector, "V6AdventureU-zonetest1");
-   Load(){
+   
     newNode(zone1, groundZero, null, Seq.with(new Objectives.SectorComplete(SectorPresets.groundZero), new Objectives.Research(Blocks.launchPad)));
-   },
+   
 
 function newNode(content, parentName, req, objectives){
   var parent = TechTree.all.find(t => t.content.name.equals(parentName));

@@ -46,8 +46,9 @@ weapons: [
   }}
 ] 
 
-  research: 000035-iri
-  /*requirements: [
-    lead/12
-    ironite/15
-  ]*/
+research: {
+    parent: 000035-iri
+    requirements: [
+        concentrated-resistence/5
+        ironite/12
+  ]}

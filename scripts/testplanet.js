@@ -19,17 +19,28 @@ testplanet.atmosphereRadIn = 0.1;
 testplanet.atmosphereRadOut = 0.2;
 
 //Planet sector pressets
-const zonetest1 = new JavaAdapter(SectorPreset, {}, "zonetest1", Planets.testplanet, 1);
+const zonetest1 = new SectorPreset("zonetest1", testplanet, 1);
 zonetest1.difficulty = 12;
 zonetest1.captureWave = 25;
 zonetest1.localizedName = "Flyn base";
-zonetest1.alwaysUnlocked = true;
+zonetest1.alwaysUnlocked = false;
 /*zonetest1.objectives = Seq.with(
   new Objectives.SectorComplete(SectorPresets.groundZero),
   new Objectives.Research(Vars.content.getByName(ContentType.block, "V6AdventureU-0001-ironite-compress")),
   //new Objectives.Research(Vars.content.getByName(ContentType.block, "goldmod-goldForge")),
   //new Objectives.Research(Blocks.laserDrill)
 );*/
+const zonetest2 = new SectorPreset("zonetest1", testplanet, 2);
+zonetest2.difficulty = 12;
+zonetest2.captureWave = 25;
+zonetest2.localizedName = "Flyn base unlo";
+zonetest2.alwaysUnlocked = true;
+zonetest2.objectives = Seq.with(
+  new Objectives.SectorComplete(SectorPresets.groundZero),
+  new Objectives.Research(Vars.content.getByName(ContentType.block, "V6AdventureU-0001-ironite-compress")),
+  //new Objectives.Research(Vars.content.getByName(ContentType.block, "goldmod-goldForge")),
+  //new Objectives.Research(Blocks.laserDrill)
+);
 //const zone1 = Vars.content.getByName(ContentType.sector, "V6AdventureU-zonetest1");
 // newNode(zone1, groundZero, null, Seq.with(new Objectives.SectorComplete(SectorPresets.groundZero), new Objectives.Research(Blocks.launchPad)));
    

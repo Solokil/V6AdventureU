@@ -45,9 +45,10 @@ weapons: [
     backColor: 0c5200
   }}
 ] 
-
-  research: 030035-iri-tanker
-  /*requirements: [
-    concentrated-fury/12
-    ironite/5
-  ]*/
+  
+research: {
+    parent: 030035-iri-tanker
+    requirements: [
+        concentrated-fury/5
+        concentrated-resistence/5
+  ]}

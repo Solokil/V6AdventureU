@@ -60,8 +60,10 @@ weapons: [
   }
 }
 ]
-  research: 001055-fly-iri-f3
-/*requirements: [
-    concentrated-fury/12
-    ironite/15
-  ]*/
+
+research: {
+    parent: 001055-fly-iri-f3
+    requirements: [
+        concentrated-fury/5
+        ironite/12
+  ]}

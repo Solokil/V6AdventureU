@@ -3,14 +3,12 @@ name: Fiorite conveyor
 health: 320
 buildCostMultiplier: 0.2
 description: A moderate speed conveyor made out of fiorite and with a great armor.
-requirements: [
-  fiorite/12
-]
+
 category: distribution
 speed: 0.5
 research: {
-  parent: armored-conveyor
+  parent: 0105-jiliorite-crafter
   requirements: [
   jiliorite/7
 ]
-  }
+}

@@ -8,19 +8,56 @@ hasLiquids: true
 liquidCapacity: 10
 buildCostMultiplier: 0.3
 
-//Base Turret fields
+//Base Turret fields - extends block
 range: 350
 rotatespeed: 10
 acceptCoolant: true //default = true
 coolEffect: fuelburn //effect - default = fuelburn
-coolantMultiplier: 5.0 //default is 5.0
+coolantMultiplier: 30 //default is 5.0
 
-//Reload Turret fields
+//Reload Turret fields - extends base turret
 reloadTime: 70
 
-inaccuracy: 0
-coolantMultiplier: 30
-targetAir: true
+//Turret field - extends reload turret
+timerTarget: 1 //D = 1 (D-default)
+targetInterval: 20 //D = 20
+heatColor: ab3400ff //color - D = ab3400ff
+shootEffect: none //effect - D = none
+smokeEffect: none //effect - D = none
+ammoUseEffect: none //effect - D = none
+shootSound: shoot //effect - D = shoot
+maxAmmo: 30 //int - D = 30
+ammoPerShot: 1 //int - D = 1
+ammoEjectBack: 1.0 //float - D = 1.0
+inaccuracy: 0.0 //float - D = 0.0
+velocityInaccuracy: 0.0 //float - D = 0.0
+shots: 1 //int - D = 1
+spread: 4.0 //float - D = 4.0
+recoilAmount: 1.5 //float - D = 1.0
+restitution: 0.02 //float - D = 0.02
+cooldown: 0.02 //float - D = 0.02
+coolantUsage: 0.2 //float - D = 0.2
+shootCone: 8.0 //float - D = 8.0
+shootShake: 0.0 //float - D = 0.0
+xRand: 0.0 //float - D = 0.0
+minRange: 48.0 //float - D = 0.0
+burstSpacing: 0.0 //float - D = 0.0
+alternate: false //boolean - D = false
+targetAir: true //boolean - D = true
+targetGround: true //bollean - D = true
+//charging field (inside turret type field)
+chargeTime: -1.0 // float - D - -1.0
+chargeEffects: 5 //int - D = 5
+chargeMaxDelay: 10.0 //float - D = 10.0
+chargeEffect: none //effecgt - D = none
+chargeBeginEffect: none //effect - D = none
+chargeSound: none //effect - D = none
+baseRegion: null //textureRegion - D = null
+heatRegion: null //textureRegion - D = null
+
+
+
+//Item Turret field - extends turret
 ammoTypes: {
   ironite: {
     //move 6 world units per frame (very fast)
@@ -64,12 +101,15 @@ ammoTypes: {
   ammoMultiplier: 1
   }
 }
+
+//Block field (part 2)
 requirements: [
   ironite/75
   lead/40
 ]
 category: turret
 research: 0001-ironite-compress
+
 consumes: {
 liquid: {
 liquid: water

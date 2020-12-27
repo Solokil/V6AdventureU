@@ -5,7 +5,7 @@ health: 950
 size: 2
 reload: 40
 range: 185
-inaccuracy: 50
+inaccuracy: 42
 buildCostMultiplier: 0.3
 rotatespeed: 12
 

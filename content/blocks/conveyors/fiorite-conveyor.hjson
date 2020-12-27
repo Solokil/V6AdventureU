@@ -5,7 +5,7 @@ buildCostMultiplier: 0.2
 description: A moderate speed conveyor made out of fiorite and with a great armor.
 
 category: distribution
-speed: 0.5
+speed: 0.1
 research: {
   parent: 0105-jiliorite-crafter
 }

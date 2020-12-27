@@ -8,11 +8,14 @@ hasLiquids: true
 liquidCapacity: 10
 buildCostMultiplier: 0.3
 reloadTime: 70
+
+//Base Turret fields
 range: 350
+rotatespeed: 10
+acceptCoolant: true //default = true
+coolEffect: fuelburn //effect - default = fuelburn
 inaccuracy: 0
 coolantMultiplier: 30
-//ammoUseEffect: shellEjectSmall
-rotatespeed: 10
 targetAir: true
 ammoTypes: {
   ironite: {

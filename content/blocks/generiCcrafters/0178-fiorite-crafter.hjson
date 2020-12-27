@@ -7,7 +7,7 @@ outputItem: {
   amount: 1
 }
 buildCostMultiplier: 0.3
-size: 1
+size: 2
 hasPower: true
 hasLiquids: false
 hasItems: true

@@ -12,7 +12,7 @@ buildCostMultiplier: 0.3
 range: 350
 rotatespeed: 10
 acceptCoolant: true //default = true
-coolEffect: fuelburn //effect - default = fuelburn
+//coolEffect: fuelburn //effect - default = fuelburn
 coolantMultiplier: 30 //default is 5.0
 
 //Reload Turret fields - extends base turret

@@ -12,7 +12,8 @@ buildCostMultiplier: 0.28
 range: 52
 rotatespeed: 12
 acceptCoolant: true //default = true
-//coolEffect: fuelburn //effect - default = fuelburn
+coolEffect: fuelburn 
+//effect - default = fuelburn
 coolantMultiplier: 40 //default is 5.0
 
 //Reload Turret fields - extends base turret
@@ -22,10 +23,14 @@ reloadTime: 8
 timerTarget: 1 //D = 1 (D-default)
 targetInterval: 20 //D = 20
 heatColor: ab3400ff //color - D = ab3400ff
-shootEffect: none //effect - D = none
-smokeEffect: none //effect - D = none
-ammoUseEffect: none //effect - D = none
-shootSound: shoot //effect - D = shoot
+shootEffect: none 
+//effect - D = none
+smokeEffect: none 
+//effect - D = none
+ammoUseEffect: none 
+//effect - D = none
+shootSound: shoot 
+//effect - D = shoot
 maxAmmo: 150 //int - D = 30
 ammoPerShot: 1 //int - D = 1
 ammoEjectBack: 1.0 //float - D = 1.0
@@ -49,9 +54,12 @@ targetGround: true //bollean - D = true
 chargeTime: -1.0 // float - D - -1.0
 chargeEffects: 5 //int - D = 5
 chargeMaxDelay: 10.0 //float - D = 10.0
-chargeEffect: none //effecgt - D = none
-chargeBeginEffect: none //effect - D = none
-chargeSound: none //effect - D = none
+chargeEffect: none 
+//effect - D = none
+chargeBeginEffect: none 
+//effect - D = none
+chargeSound: none 
+//effect - D = none
 baseRegion: null //textureRegion - D = null
 heatRegion: null //textureRegion - D = null
 

@@ -27,12 +27,12 @@ consumes: {
 category: crafting
 research: {
   parent: 0105-jiliorite-crafter
+}
 requirements: [
   copper/30
   sand/20
   jiliorite/10
 ]
-}
   
 idleSound: respawning
 idleSoundVolume: 0.5

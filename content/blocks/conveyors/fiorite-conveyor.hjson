@@ -8,7 +8,7 @@ category: distribution
 speed: 0.5
 research: {
   parent: 0105-jiliorite-crafter
-  requirements: [
+}
+requirements: [
   jiliorite/7
 ]
-}

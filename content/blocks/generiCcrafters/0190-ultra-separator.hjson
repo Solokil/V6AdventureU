@@ -1,5 +1,5 @@
 type: GenericCrafter
-name: "Fiorite Mixer"
+name: "Ultra Separator"
 // liquidCapacity: 180
 description: "Uses energy separate sand into random resources"
 results: {

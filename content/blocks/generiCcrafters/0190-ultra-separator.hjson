@@ -1,0 +1,51 @@
+type: GenericCrafter
+name: "Fiorite Mixer"
+// liquidCapacity: 180
+description: "Uses energy separate sand into random resources"
+results: {
+  items: [
+  lead/20
+  copper/20
+  fiorite/15
+  jiliorite/18
+  ironite/20
+  iron-plate/10
+  jilior-plate/10
+  graphite/12
+  silicon/12
+  scrap/3
+  coal/3
+  titanium/4
+  thorium/4
+  ]
+}
+buildCostMultiplier: 0.3
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 20
+updateEffect: smeltsmoke
+consumes: {
+  //liquid: enrage-essence/1
+  items: {
+        items: [
+            sand/1/3
+        ]
+    }
+    power: 0.5
+}
+category: production
+research: {
+  parent: 0178-fiorite-mixer
+}
+requirements: [
+  sand/200
+  fiorite/100
+  jilior-plate/30
+  iron-plate/30
+  silicon/10
+]
+  
+idleSound: respawning
+idleSoundVolume: 0.5

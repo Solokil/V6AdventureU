@@ -1,0 +1,38 @@
+type: GenericCrafter
+name: "Fiorite Mixer"
+// liquidCapacity: 180
+description: "Mix copper, sand and jiliorite into fiorite"
+outputItem: {
+  item: fiorite
+  amount: 1
+}
+buildCostMultiplier: 0.3
+size: 1
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  //liquid: enrage-essence/1
+  items: {
+        items: [
+            copper/1
+            sand/1
+            jiliorite/1
+        ]
+    }
+    power: 0.2
+}
+category: crafting
+research: {
+  parent: 0105-jiliorite-crafter
+requirements: [
+  copper/30
+  sand/20
+  jiliorite/10
+]
+}
+  
+idleSound: respawning
+idleSoundVolume: 0.5

@@ -117,12 +117,14 @@ ammoTypes: {
 }/**/
 
 //Block field (part 2)
-requirements: [
-  ironite/75
-  lead/40
-]
 category: turret
-research: 0001-ironite-compress
+research: {
+     parent: 0001-ironite-compress
+     requirements: [
+       ironite/75
+       lead/40
+]
+}
 
 consumes: {
 liquid: {

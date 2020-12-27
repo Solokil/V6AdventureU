@@ -1,6 +1,6 @@
 type: ItemTurret
 name: DEcaty
-description: This rutter is a mini wall!.. very strong!.. but low range...
+description: This turret is great for front lines and against aerials enemys at close range!
 health: 580
 size: 1
 hasItems: true
@@ -73,6 +73,17 @@ shootDuration: 100.0 //float - D = 100.0
 
 /**///Item Turret field - extends turret
 ammoTypes: {
+   iron-plate: {
+    //move 6 world units per frame (very fast)
+    speed: 6
+    lifetime: 13
+    damage: 98
+    width: 8
+    height: 17
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 15
+  }
   ironite: {
     //move 6 world units per frame (very fast)
     speed: 6

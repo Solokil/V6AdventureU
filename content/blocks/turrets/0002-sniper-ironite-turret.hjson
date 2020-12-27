@@ -128,11 +128,11 @@ ammoTypes: {
 category: turret
 research: {
      parent: 0001-ironite-compress
-     requirements: [
+} 
+requirements: [
        ironite/75
        lead/40
 ]
-}
 
 consumes: {
 liquid: {

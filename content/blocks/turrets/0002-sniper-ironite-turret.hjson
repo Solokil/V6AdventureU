@@ -55,9 +55,23 @@ chargeSound: none //effect - D = none
 baseRegion: null //textureRegion - D = null
 heatRegion: null //textureRegion - D = null
 
+/*///Power Turret field - extends turret
+powerUse: 1.0 //float - D = 1.0 (1.0 * 60 = 60 energy per second)
+shootType: { //BulletType - D = null
+  speed: 2
+  lifetime: 172 // 4s * 60f = 240 frames
+  damage: 50
+  width: 10
+  height: 15
+}/**/
 
+//Insert "*" to start or finish the "/**/" when it is like "/*/" '/**/' = enabled field - '/*/' = disabled field - Only change the start!
+/*///Laser Turret field - extends Power turret
+firingMoveFract: 0.25 //float - D = 0.25
+shootDuration: 100.0 //float - D = 100.0
+/**/
 
-//Item Turret field - extends turret
+/**///Item Turret field - extends turret
 ammoTypes: {
   ironite: {
     //move 6 world units per frame (very fast)
@@ -100,7 +114,7 @@ ammoTypes: {
   smokeEffect: shootSmallSmoke
   ammoMultiplier: 1
   }
-}
+}/**/
 
 //Block field (part 2)
 requirements: [

@@ -40,8 +40,8 @@ shootType: {
 
 }
 requirements: [
-  ironite/50
-  titanium/30
+  ironite/65
+  titanium/40
 ]
 category: turret
 research: 0002-sniper-ironite-turret

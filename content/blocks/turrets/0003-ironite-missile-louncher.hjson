@@ -3,7 +3,7 @@ name: Energy Iron Missile Louncher
 description: A missile Louncher that spends low energy, but have a big inaccuracy... It is good against swarms of units and in close range combat!
 health: 950
 size: 2
-reload: 20
+reload: 40
 range: 185
 inaccuracy: 50
 buildCostMultiplier: 0.3
@@ -14,7 +14,7 @@ chargeMaxDelay: 0.1
 chargeEffects: 2
 chargeEffect: lancerLaserCharge
 heatColor: ff0000
-powerUse: 0.4
+powerUse: 0.9
 shootType: {
  
   type: MissileBulletType

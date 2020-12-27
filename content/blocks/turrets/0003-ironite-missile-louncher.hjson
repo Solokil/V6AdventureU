@@ -5,7 +5,7 @@ health: 950
 size: 2
 reload: 40
 range: 185
-inaccuracy: 42
+inaccuracy: 46
 buildCostMultiplier: 0.3
 rotatespeed: 12
 
@@ -20,9 +20,9 @@ shootType: {
   type: MissileBulletType
   lifetime: 100
   speed: 4
-  damage: 20
+  damage: 18
   splashDamageRadious: 18
-  splashDamage: 30
+  splashDamage: 27
   frontColor: c3ccff
   backColor: c3ccff
   homingPower: 1.8
@@ -34,7 +34,7 @@ shootType: {
     lifetime: 600
     speed: 0.2
     pierce:true
-    damage:3
+    damage: 3
     }
   
 

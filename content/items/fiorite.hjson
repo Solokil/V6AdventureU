@@ -1,0 +1,16 @@
+type: material
+name: Fiorite
+description: A corrupted mineral, it is harder hem jiliorite, initially it should not exist in V6, but at the day 27 from december in 2020 I decided to introduce fiorite back to the mod... the diference is that now it is stronger than jiliorite (it was the opposite in V5 of mindustry)
+hardness: 3
+cost: 6
+color: a83200
+
+research: {
+   parent: jiliorite
+   requirements: [
+      jiliorite/100
+   ]
+}
+explosiveness: 0.05
+flammability: 0.35 //above 0.3 can be used for item burners
+radioactivity: 0.1

@@ -1,0 +1,136 @@
+type: ItemTurret
+name: DEcaty
+description: This rutter is a mini wall!.. very strong!.. but low range...
+health: 580
+size: 1
+hasItems: true
+hasLiquids: true
+liquidCapacity: 10
+buildCostMultiplier: 0.28
+
+//Base Turret fields - extends block
+range: 52
+rotatespeed: 12
+acceptCoolant: true //default = true
+coolEffect: fuelburn //effect - default = fuelburn
+coolantMultiplier: 40 //default is 5.0
+
+//Reload Turret fields - extends base turret
+reloadTime: 8
+
+//Turret field - extends reload turret
+timerTarget: 1 //D = 1 (D-default)
+targetInterval: 20 //D = 20
+heatColor: ab3400ff //color - D = ab3400ff
+shootEffect: none //effect - D = none
+smokeEffect: none //effect - D = none
+ammoUseEffect: none //effect - D = none
+shootSound: shoot //effect - D = shoot
+maxAmmo: 150 //int - D = 30
+ammoPerShot: 1 //int - D = 1
+ammoEjectBack: 1.0 //float - D = 1.0
+inaccuracy: 0.0 //float - D = 0.0
+velocityInaccuracy: 0.0 //float - D = 0.0
+shots: 1 //int - D = 1
+spread: 4.0 //float - D = 4.0
+recoilAmount: 1.5 //float - D = 1.0
+restitution: 0.02 //float - D = 0.02
+cooldown: 0.02 //float - D = 0.02
+coolantUsage: 0.2 //float - D = 0.2
+shootCone: 8.0 //float - D = 8.0
+shootShake: 0.0 //float - D = 0.0
+xRand: 0.0 //float - D = 0.0
+minRange: 48.0 //float - D = 0.0
+burstSpacing: 0.0 //float - D = 0.0
+alternate: false //boolean - D = false
+targetAir: true //boolean - D = true
+targetGround: true //bollean - D = true
+//charging field (inside turret type field)
+chargeTime: -1.0 // float - D - -1.0
+chargeEffects: 5 //int - D = 5
+chargeMaxDelay: 10.0 //float - D = 10.0
+chargeEffect: none //effecgt - D = none
+chargeBeginEffect: none //effect - D = none
+chargeSound: none //effect - D = none
+baseRegion: null //textureRegion - D = null
+heatRegion: null //textureRegion - D = null
+
+/*///Power Turret field - extends turret
+powerUse: 1.0 //float - D = 1.0 (1.0 * 60 = 60 energy per second)
+shootType: { //BulletType - D = null
+  speed: 2
+  lifetime: 172 // 4s * 60f = 240 frames
+  damage: 50
+  width: 10
+  height: 15
+}/**/
+
+//Insert "*" to start or finish the "/**/" when it is like "/*/" '/**/' = enabled field - '/*/' = disabled field - Only change the start!
+/*///Laser Turret field - extends Power turret
+firingMoveFract: 0.25 //float - D = 0.25
+shootDuration: 100.0 //float - D = 100.0
+/**/
+
+/**///Item Turret field - extends turret
+ammoTypes: {
+  ironite: {
+    //move 6 world units per frame (very fast)
+    speed: 6
+    lifetime: 10
+    damage: 90
+    width: 7
+    height: 16
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 3
+  }
+  copper: {
+  speed: 3
+  damage: 40
+  lifetime: 23
+  width: 9
+  height: 11
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  ammoMultiplier: 1
+  }
+  lead: {
+  speed: 4.5
+  lifetime: 15
+  damage: 45
+  width: 10
+  height: 13
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  ammoMultiplier: 2
+  }
+  scrap: {
+  speed: 2
+  lifetime: 30 // 4s * 60f = 240 frames
+  damage: 55
+  width: 10
+  height: 15
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  ammoMultiplier: 1
+  }
+}/**/
+
+//Block field (part 2)
+category: turret
+research: {
+     parent: 0002-sniper-ironite-turret
+     requirements: [
+       iron-plate/34
+       ironite/3
+       lead/15
+]
+}
+
+/*consumes: {
+liquid: {
+liquid: water
+amount: 0.1
+optional: true
+booster: true
+}}*/

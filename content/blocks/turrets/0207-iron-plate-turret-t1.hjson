@@ -139,12 +139,12 @@ ammoTypes: {
 category: turret
 research: {
      parent: 0002-sniper-ironite-turret
-     requirements: [
+}
+requirements: [
        iron-plate/34
        ironite/3
        lead/15
 ]
-}
 
 /*consumes: {
 liquid: {

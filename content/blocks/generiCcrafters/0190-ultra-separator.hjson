@@ -2,8 +2,7 @@ type: Separator
 name: "Ultra Separator"
 // liquidCapacity: 180
 description: "Uses energy separate sand into random resources"
-results: {
-  items: [
+results: [
   lead/20
   copper/20
   fiorite/15
@@ -18,7 +17,6 @@ results: {
   titanium/4
   thorium/4
   ]
-}
 buildCostMultiplier: 0.3
 size: 2
 hasPower: true

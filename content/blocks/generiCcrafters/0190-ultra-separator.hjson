@@ -20,7 +20,7 @@ results: [
 buildCostMultiplier: 0.3
 size: 2
 hasPower: true
-hasLiquids: false
+hasLiquids: true
 hasItems: true
 craftTime: 20
 updateEffect: smeltsmoke
@@ -46,4 +46,4 @@ requirements: [
 ]
   
 idleSound: respawning
-idleSoundVolume: 0.5
+idleSoundVolume: 0.3

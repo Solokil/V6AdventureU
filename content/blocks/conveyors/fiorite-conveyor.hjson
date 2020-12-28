@@ -10,5 +10,6 @@ research: {
   parent: 0178-fiorite-mixer
 }
 requirements: [
-  fiorite/7
+  fiorite/1
+  copper/5
 ]

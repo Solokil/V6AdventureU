@@ -6,9 +6,12 @@ drag: 0.01
 flying: true
 health: 225
 engineOffset: 5.5
+
 hovering: false
 circleTarget: true
 commandLimit: 3
+mineTier: 1
+
 range: 140
 weapons: [{
   length: 1.5

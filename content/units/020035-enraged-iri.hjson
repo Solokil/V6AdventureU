@@ -6,6 +6,7 @@ flying: false
 health: 300
 
 commandLimit: 5
+buildSpeed: 1.7
 
 range: 440
 weapons: [

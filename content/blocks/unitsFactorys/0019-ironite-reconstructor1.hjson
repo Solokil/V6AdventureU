@@ -20,11 +20,11 @@ requirements: [
 ]
 upgrades: [
   [
+    000035-iri, 000045-iri-f2
+  ]
+  [
     001035-fly-iri, 001045-fly-iri-f2
   ]/*
-  [
-    goldenFlare, goldenHorizon
-  ]
   [
     goldenCrawler, goldenAtrax
   ]/**/

@@ -2,6 +2,9 @@ type: mech
 name: Lockeri Tanker
 speed: 0.15
 hitsize: 13
+
+commandLimit: 5
+
 flying: false
 health: 1900
 range: 320

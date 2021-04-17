@@ -6,7 +6,10 @@ drag: 0.01
 flying: true
 health: 225
 engineOffset: 5.5
-range: 140
+hovering: false
+circleTarget: true
+commandLimit: 3
+//range: 140
 weapons: [{
   length: 1.5
   reload: 9
@@ -28,6 +31,6 @@ weapons: [{
   research: {
     parent: 0005-ironite-factory
     requirements: [
-        lead/12
-        ironite/15
+        lead/120
+        ironite/150
   ]}

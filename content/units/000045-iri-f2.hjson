@@ -1,6 +1,6 @@
 type: mech
 name: Mini.Arseni
-speed: 1
+speed: 0.9
 hitsize: 13
 
 commandLimit: 6
@@ -10,7 +10,7 @@ range: 440
 weapons: [
   {
   name: iri-sniper
-  x: -4.3
+  x: -5.3
   y: -1.3
   reload: 80
   alternate: true
@@ -27,9 +27,9 @@ weapons: [
   }}
   {
   name: iri-sniper
-  x: 3.2
+  x: -3
   y: 0
-  reload: 40
+  reload: 23
   alternate: true
   //ejectEffect: shellEjectSmall
   bullet: {
@@ -37,7 +37,7 @@ weapons: [
     speed: 4.2
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    damage: 50
+    damage: 43
     length: 9
     // frontColor: ffffff // Color of front sprite.
     // backColor: ffffff // Color of back sprite.

@@ -6,9 +6,12 @@ drag: 0.08
 flying: true
 health: 600
 engineOffset: 5.7
+
 hovering: false
 circleTarget: true
 commandLimit: 5
+canBuild: true
+
 range: 148
 weapons: [{
   length: 2.5

@@ -8,7 +8,7 @@ flying: true
 engineOffset: 5.7
 hovering: false
 circleTarget: true
-commandLimit: 8
+commandLimit: 9
 range: 140.8
 weapons: [
 {

@@ -10,7 +10,7 @@ engineOffset: 5.7
 hovering: false
 circleTarget: true
 commandLimit: 6
-canBuild: true
+buildSpeed: 1.4
 
 
 range: 161

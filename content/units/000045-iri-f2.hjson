@@ -45,7 +45,7 @@ weapons: [
 ] 
 
   research: {
-    parent: 0005-ironite-factory
+    parent: 000035-iri
     requirements: [
         lead/2300
         ironite/1600

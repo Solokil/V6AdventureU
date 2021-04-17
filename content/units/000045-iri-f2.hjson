@@ -1,0 +1,52 @@
+type: mech
+name: Mini.Arseni
+speed: 1
+hitsize: 13
+
+commandLimit: 6
+flying: false
+health: 830
+range: 440
+weapons: [
+  {
+  name: iri-sniper
+  x: -4.3
+  y: -1.3
+  reload: 80
+  alternate: true
+  //ejectEffect: shellEjectSmall
+  bullet: {
+    lifetime: 69
+    speed: 5.1
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    damage: 135
+    length: 18
+    // frontColor: ffffff // Color of front sprite.
+    // backColor: ffffff // Color of back sprite.
+  }}
+  {
+  name: iri-sniper
+  x: 3.2
+  y: 0
+  reload: 40
+  alternate: true
+  //ejectEffect: shellEjectSmall
+  bullet: {
+    lifetime: 60
+    speed: 4.2
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    damage: 50
+    length: 9
+    // frontColor: ffffff // Color of front sprite.
+    // backColor: ffffff // Color of back sprite.
+  }}
+] 
+
+  research: {
+    parent: 0005-ironite-factory
+    requirements: [
+        lead/2300
+        ironite/1600
+  ]}

@@ -2,6 +2,9 @@ type: mech
 name: Lockeri
 speed: 1
 hitsize: 13
+
+commandLimit: 4
+
 flying: false
 health: 500
 range: 400

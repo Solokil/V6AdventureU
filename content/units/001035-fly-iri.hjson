@@ -9,7 +9,7 @@ engineOffset: 5.5
 hovering: false
 circleTarget: true
 commandLimit: 3
-//range: 140
+range: 140
 weapons: [{
   length: 1.5
   reload: 9

@@ -6,6 +6,9 @@ drag: 0.08
 flying: true
 health: 2000
 engineOffset: 5.7
+hovering: false
+circleTarget: true
+commandLimit: 7
 range: 160
 weapons: [
 {

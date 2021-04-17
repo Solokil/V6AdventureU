@@ -10,7 +10,7 @@ engineOffset: 5.7
 hovering: false
 circleTarget: true
 commandLimit: 5
-canBuild: true
+buildSpeed: 1.25
 
 range: 148
 weapons: [{

@@ -4,6 +4,9 @@ speed: 1.3
 hitsize: 13
 flying: false
 health: 300
+
+commandLimit: 5
+
 range: 440
 weapons: [
   {

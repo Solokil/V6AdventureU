@@ -2,6 +2,9 @@ type: mech
 name: Enraged Lockeri Tanker
 speed: 0.195
 hitsize: 13
+
+commandLimit: 6
+
 flying: false
 health: 1140
 range: 352

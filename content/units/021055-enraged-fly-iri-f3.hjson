@@ -6,6 +6,9 @@ hitsize: 19
 drag: 0.08
 flying: true
 engineOffset: 5.7
+hovering: false
+circleTarget: true
+commandLimit: 8
 range: 176
 weapons: [
 {

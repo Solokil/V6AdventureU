@@ -4,6 +4,7 @@ speed: 0.15
 hitsize: 13
 
 commandLimit: 5
+canHeal: true
 
 flying: false
 health: 1900

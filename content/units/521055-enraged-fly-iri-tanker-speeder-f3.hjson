@@ -7,8 +7,13 @@ drag: 0.08
 flying: true
 engineOffset: 5.7
 hovering: false
+
 circleTarget: true
 commandLimit: 10
+mineTier: 7
+canHeal: true
+buildSpeed: 3
+
 range: 355
 weapons: [
 {

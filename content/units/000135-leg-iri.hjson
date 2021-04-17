@@ -5,6 +5,8 @@ legCount: 4
 hitsize: 13
 rotateSpeed: 3
 
+commandLimit: 4
+
 speed: 0.8
 health: 250
 armor: 0.5

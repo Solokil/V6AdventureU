@@ -11,6 +11,7 @@ hovering: false
 circleTarget: true
 commandLimit: 3
 mineTier: 1
+mineSpeed: 0.8
 
 range: 140
 weapons: [{

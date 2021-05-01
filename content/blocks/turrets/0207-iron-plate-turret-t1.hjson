@@ -84,7 +84,7 @@ ammoTypes: {
    iron-plate: {
     //move 6 world units per frame (very fast)
     speed: 6
-    lifetime: 13
+    lifetime: 52
     damage: 98
     width: 8
     height: 17
@@ -95,7 +95,7 @@ ammoTypes: {
   ironite: {
     //move 6 world units per frame (very fast)
     speed: 6
-    lifetime: 10
+    lifetime: 13
     damage: 90
     width: 7
     height: 16
@@ -106,7 +106,7 @@ ammoTypes: {
   copper: {
   speed: 3
   damage: 40
-  lifetime: 23
+  lifetime: 24
   width: 9
   height: 11
   shootEffect: shootSmall

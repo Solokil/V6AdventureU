@@ -1,0 +1,11 @@
+name: Large Ironite Wall
+description: Now this is a good wall!!!
+type: Wall
+buildCostMultiplier: 1.4
+health: 6400
+size: 3
+requirements: [
+  iron/160
+]
+category: defense
+research: 00346-ironite-wall

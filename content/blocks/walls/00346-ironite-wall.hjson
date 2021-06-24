@@ -1,0 +1,11 @@
+name: Ironite Wall
+description: A wall made of iron. not good but not worth yet.
+buildCostMultiplier: 0.75
+type: Wall
+health: 2680
+size: 2
+requirements: [
+  ironite/70
+]
+category: defense
+research: 00345-small-ironite-wall

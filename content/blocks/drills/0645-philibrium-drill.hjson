@@ -3,7 +3,7 @@ description: Made with philibrium, this drill mines very fast using subzero hits
 type: Drill
 health: 2400
 size: 3
-tier: 16
+tier: 25
 buildCostMultiplier: 0.4
 drillTime: 25
 liquidCapacity: 36

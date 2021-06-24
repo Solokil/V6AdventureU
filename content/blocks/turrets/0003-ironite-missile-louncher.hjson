@@ -21,7 +21,7 @@ shootType: {
   lifetime: 100
   speed: 4
   damage: 18
-  splashDamageRadious: 18
+  splashDamageRadius: 18
   splashDamage: 27
   frontColor: c3ccff
   backColor: c3ccff
